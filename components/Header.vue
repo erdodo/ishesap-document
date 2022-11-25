@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <Header></Header>
-    <img src="/favicon.ico" alt="" />
-  </div>
+  <div>ASDADSFASDFSD HEADER</div>
 </template>
 
 <script>
