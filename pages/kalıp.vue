@@ -3,19 +3,21 @@
     <Header></Header>
     <div class="d-flex">
       <Aside></Aside>
-      <div style="height: 100vh" class="overflow-auto container py-4 px-2">
-        <el-card class="w-100">
-          <el-breadcrumb separator-class="el-icon-arrow-right">
-            <el-breadcrumb-item :to="{ path: '/' }"
-              >Anasayfa</el-breadcrumb-item
-            >
-            <el-breadcrumb-item :to="{ path: '/alis-satis' }"
-              >Alış-Satış Yönetimi</el-breadcrumb-item
-            >
-            <el-breadcrumb-item>Fatura</el-breadcrumb-item>
-          </el-breadcrumb>
-        </el-card>
-        <!-------  KODLAR BURAYA  --------->
+      <div style="height: 100vh" class="overflow-auto w-100 py-4 px-2">
+        <div class="containter">
+          <el-card class="w-100">
+            <el-breadcrumb separator-class="el-icon-arrow-right">
+              <el-breadcrumb-item :to="{ path: '/' }"
+                >Anasayfa</el-breadcrumb-item
+              >
+              <el-breadcrumb-item :to="{ path: '/alis-satis' }"
+                >Alış-Satış Yönetimi</el-breadcrumb-item
+              >
+              <el-breadcrumb-item>Fatura</el-breadcrumb-item>
+            </el-breadcrumb>
+          </el-card>
+          <!-------  KODLAR BURAYA  --------->
+        </div>
       </div>
     </div>
     <Footer></Footer>
