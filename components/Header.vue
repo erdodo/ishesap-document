@@ -28,10 +28,42 @@
     </el-menu-item>
 
     <template v-if="width >= 900">
-      <el-menu-item index="/kobi">Kobi</el-menu-item>
-      <el-menu-item index="/onmuhasebe">Ön Muhasebe</el-menu-item>
-      <el-menu-item index="/muhasebe">Resmi Muhasebe</el-menu-item>
-      <el-menu-item index="/edonusum">E-Dönüşüm</el-menu-item>
+      <el-menu-item
+        index="/kobi"
+        :class="
+          this.$route.path.split('/')[1] == 'kobi'
+            ? 'border-bottom h1 border-primary'
+            : ''
+        "
+        >Kobi</el-menu-item
+      >
+      <el-menu-item
+        index="/on-muhasebe"
+        :class="
+          this.$route.path.split('/')[1] == 'on-muhasebe'
+            ? 'border-bottom h1 border-primary'
+            : ''
+        "
+        >Ön Muhasebe</el-menu-item
+      >
+      <el-menu-item
+        index="/muhasebe"
+        :class="
+          this.$route.path.split('/')[1] == 'resmi-muhasebe'
+            ? 'border-bottom h1 border-primary'
+            : ''
+        "
+        >Resmi Muhasebe</el-menu-item
+      >
+      <el-menu-item
+        index="/e-donusum"
+        :class="
+          this.$route.path.split('/')[1] == 'e-donusum'
+            ? 'border-bottom h1 border-primary'
+            : ''
+        "
+        >E-Dönüşüm</el-menu-item
+      >
       <el-menu-item class="w-100 active-iptal"></el-menu-item>
 
       <el-menu-item index="/uye-ol">Üye Ol</el-menu-item>

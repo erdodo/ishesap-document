@@ -1,6 +1,6 @@
 <template>
   <div class="w-100">
-    <el-card> Footer </el-card>
+    <el-card> © İşHesap </el-card>
   </div>
 </template>
 

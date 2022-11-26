@@ -68,7 +68,13 @@ export default {
     };
   },
   mounted() {
-    this.links = menu.on_muhasebe;
+    if (this.$route.path.split("/")[1] == "on-muhasebe")
+      this.links = menu.on_muhasebe;
+
+    if (this.$route.path.split("/")[1] == "e-donusum")
+      this.links = menu.e_donusum;
+
+    if (this.$route.path.split("/")[1] == "kobi") this.links = menu.kobi;
     this.width = window.innerWidth;
     window.addEventListener("resize", () => {
       this.width = window.innerWidth;

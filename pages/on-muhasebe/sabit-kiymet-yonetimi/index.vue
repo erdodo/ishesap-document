@@ -13,20 +13,16 @@
               <el-breadcrumb-item :to="{ path: '/' }">
                 Anasayfa
               </el-breadcrumb-item>
-
-              <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
+              <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
+                Ön Muhasebe
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>Sabit Kıymet Yönetimi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          <!------KODLAR BURAYA----->
         </div>
       </div>
     </div>
     <Footer></Footer>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

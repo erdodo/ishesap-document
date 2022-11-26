@@ -13,10 +13,12 @@
               <el-breadcrumb-item :to="{ path: '/' }">
                 Anasayfa
               </el-breadcrumb-item>
-              <el-breadcrumb-item :to="{ path: '/alis-satis' }">
-                Alış-Satış Yönetimi
+              <el-breadcrumb-item :to="{ path: '/kobi' }">
+                Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item>Fatura</el-breadcrumb-item>
+              <el-breadcrumb-item :to="{ path: '/kobi/alis-satis' }">
+                --
+              </el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
           <!------KODLAR BURAYA----->

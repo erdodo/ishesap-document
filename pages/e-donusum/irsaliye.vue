@@ -14,7 +14,7 @@
                 Anasayfa
               </el-breadcrumb-item>
               <el-breadcrumb-item :to="{ path: '/e-donusum' }">
-                E-dönüşüm Yönetimi
+                E-Dönüşüm
               </el-breadcrumb-item>
               <el-breadcrumb-item>e-İrsaliye</el-breadcrumb-item>
             </el-breadcrumb>

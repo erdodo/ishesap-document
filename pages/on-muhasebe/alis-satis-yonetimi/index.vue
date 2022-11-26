@@ -10,23 +10,19 @@
         <div class="container">
           <el-card class="w-100 mb-3">
             <el-breadcrumb separator-class="el-icon-arrow-right">
-              <el-breadcrumb-item :to="{ path: '/' }">
-                Anasayfa
+              <el-breadcrumb-item :to="{ path: '/' }"
+                >Anasayfa</el-breadcrumb-item
+              >
+              <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
+                Ön Muhasebe
               </el-breadcrumb-item>
-
-              <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
+              <el-breadcrumb-item>Alış-Satış Yönetimi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          Alış-Satış Yönetimi
         </div>
       </div>
     </div>
     <Footer></Footer>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

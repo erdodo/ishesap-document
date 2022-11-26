@@ -13,11 +13,18 @@
               <el-breadcrumb-item :to="{ path: '/' }">
                 Anasayfa
               </el-breadcrumb-item>
-
-              <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
+              <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
+                Ön Muhasebe
+              </el-breadcrumb-item>
+              <el-breadcrumb-item
+                :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }"
+              >
+                Stok-Hizmet Yönetimi
+              </el-breadcrumb-item>
+              <el-breadcrumb-item>Üretim İşlemleri</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          ÜRETİM
         </div>
       </div>
     </div>

@@ -14,10 +14,10 @@
                 Anasayfa
               </el-breadcrumb-item>
 
-              <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
+              <el-breadcrumb-item>Kobi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          KOBİ
         </div>
       </div>
     </div>

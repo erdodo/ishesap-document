@@ -13,20 +13,13 @@
               <el-breadcrumb-item :to="{ path: '/' }">
                 Anasayfa
               </el-breadcrumb-item>
-
-              <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
+              <el-breadcrumb-item> Resmi Muhasebe </el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          GELİŞTİRME AŞAMASINDA
         </div>
       </div>
     </div>
     <Footer></Footer>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>
