@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/kal%C4%B1p", {data:[{}],fetch:{},mutations:[]});

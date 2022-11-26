@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/alis-satis/siparis", {data:[{}],fetch:{},mutations:[]});

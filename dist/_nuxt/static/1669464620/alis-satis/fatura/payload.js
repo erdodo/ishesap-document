@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/alis-satis/fatura", {data:[{}],fetch:{},mutations:[]});
