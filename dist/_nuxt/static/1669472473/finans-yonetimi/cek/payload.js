@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/finans-yonetimi/cek", {data:[{}],fetch:{},mutations:[]});

@@ -16,7 +16,15 @@
       class="active-iptal"
       :class="width < 900 ? 'w-100 text-center' : ''"
     >
-      <img src="/icon/is_black3.png" style="max-height: 30px" alt="" />
+      <div class="d-flex h-100 align-items-center">
+        <img
+          src="/icon/is_black3.png"
+          class="m-0"
+          style="max-height: 30px"
+          alt=""
+        />
+        <h5 class="m-0">&nbsp;- Döküman</h5>
+      </div>
     </el-menu-item>
 
     <template v-if="width >= 900">

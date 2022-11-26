@@ -3,61 +3,72 @@
     class="position-relative"
     style="width: auto; height: calc(100vh - 61px - 64px)"
   >
-    <transition name="el-fade-in">
-      <el-menu
-        v-show="getMenuVisible"
-        :class="width < 900 ? 'position-absolute' : ''"
-        default-active="2"
-        class="top-0 h-100"
-      >
-        <el-submenu index="1">
-          <template slot="title">
-            <i class="el-icon-location"></i>
-            <span>Navigator One</span>
+    <el-menu
+      v-show="getMenuVisible"
+      :class="width < 900 ? 'position-absolute' : ''"
+      :default-active="this.$route.path"
+      class="top-0 h-100 overflow-auto"
+      router
+      :collapse-transition="false"
+    >
+      <template v-for="m in links">
+        <el-menu-item
+          :key="m"
+          v-if="m.type == 'link'"
+          :index="m.path"
+          class="cursor-pointer"
+        >
+          <el-icon :class="m.icon"></el-icon>
+          <template #title>
+            <span> {{ m.name }} </span>
           </template>
-          <el-menu-item-group title="Group One">
-            <el-menu-item index="1-1">item one</el-menu-item>
-            <el-menu-item index="1-2">item one</el-menu-item>
-          </el-menu-item-group>
-          <el-menu-item-group title="Group Two">
-            <el-menu-item index="1-3">item three</el-menu-item>
-          </el-menu-item-group>
-          <el-submenu index="1-4">
-            <template slot="title">item four</template>
-            <el-menu-item index="1-4-1">item one</el-menu-item>
-          </el-submenu>
+        </el-menu-item>
+        <el-submenu
+          :show-timeout="1"
+          :hide-timeout="1"
+          :key="m"
+          v-if="m.type == 'menu'"
+          :index="m.index"
+          class="cursor-pointer"
+        >
+          <template #title>
+            <el-icon :class="m.icon"></el-icon>
+            <span> {{ m.name }} </span>
+          </template>
+          <el-menu-item
+            v-for="s in m.sub"
+            :key="s"
+            :index="s.path"
+            class="cursor-pointer"
+          >
+            <el-icon :class="s.icon" class="me-2"></el-icon>
+            <template #title>
+              <label class="m-0 p-0"> {{ s.name }} </label>
+            </template>
+          </el-menu-item>
         </el-submenu>
-        <el-menu-item index="2">
-          <i class="el-icon-menu"></i>
-          <span>Navigator Two</span>
-        </el-menu-item>
-        <el-menu-item index="3" disabled>
-          <i class="el-icon-document"></i>
-          <span>Navigator Three</span>
-        </el-menu-item>
-        <el-menu-item index="4">
-          <i class="el-icon-setting"></i>
-          <span>Navigator Four</span>
-        </el-menu-item>
+      </template>
 
-        <el-menu-item v-if="width < 900" index="-1" @click="menuKapat()">
-          <i class="bi bi-x-lg h5"></i>
-          <span>Menüyü Kapat</span>
-        </el-menu-item>
-      </el-menu>
-    </transition>
+      <el-menu-item v-if="width < 900" index="-1" @click="menuKapat()">
+        <i class="bi bi-x-lg h5"></i>
+        <span>Menüyü Kapat</span>
+      </el-menu-item>
+    </el-menu>
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
+import menu from "./menu.js";
 export default {
   data() {
     return {
       width: 0,
+      links: {},
     };
   },
   mounted() {
+    this.links = menu.on_muhasebe;
     this.width = window.innerWidth;
     window.addEventListener("resize", () => {
       this.width = window.innerWidth;

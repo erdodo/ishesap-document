@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/stok-hizmet-yonetimi/hizmet-masraf-kartlari", {data:[{}],fetch:{},mutations:[]});

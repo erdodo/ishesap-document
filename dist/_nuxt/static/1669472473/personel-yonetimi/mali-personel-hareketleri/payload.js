@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/personel-yonetimi/mali-personel-hareketleri", {data:[{}],fetch:{},mutations:[]});

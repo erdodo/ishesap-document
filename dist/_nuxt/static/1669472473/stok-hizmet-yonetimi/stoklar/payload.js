@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/stok-hizmet-yonetimi/stoklar", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/finans-yonetimi/senet", {data:[{}],fetch:{},mutations:[]});

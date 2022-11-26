@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/sabit-kiymet-yonetimi/kartlar", {data:[{}],fetch:{},mutations:[]});
