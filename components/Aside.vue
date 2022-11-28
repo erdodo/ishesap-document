@@ -1,7 +1,7 @@
 <template>
   <div
     class="position-relative"
-    style="width: auto; height: calc(100vh - 61px - 64px)"
+    style="width: auto; min-width: 240px; height: calc(100vh - 61px - 64px)"
   >
     <el-menu
       v-show="getMenuVisible"
@@ -13,7 +13,7 @@
     >
       <template v-for="m in links">
         <el-menu-item
-          :key="m"
+          :key="m.index"
           v-if="m.type == 'link'"
           :index="m.path"
           class="cursor-pointer"
@@ -26,7 +26,7 @@
         <el-submenu
           :show-timeout="1"
           :hide-timeout="1"
-          :key="m"
+          :key="m.index"
           v-if="m.type == 'menu'"
           :index="m.index"
           class="cursor-pointer"
@@ -37,7 +37,7 @@
           </template>
           <el-menu-item
             v-for="s in m.sub"
-            :key="s"
+            :key="s.index"
             :index="s.path"
             class="cursor-pointer"
           >
@@ -75,6 +75,8 @@ export default {
       this.links = menu.e_donusum;
 
     if (this.$route.path.split("/")[1] == "kobi") this.links = menu.kobi;
+
+    if (this.$route.path.split("/")[1] == "genel") this.links = menu.genel;
     this.width = window.innerWidth;
     window.addEventListener("resize", () => {
       this.width = window.innerWidth;

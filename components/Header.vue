@@ -1,9 +1,7 @@
 <template>
   <el-menu
-    :default-active="activeIndex"
     class="d-flex"
     mode="horizontal"
-    @select="handleSelect"
     :class="width < 900 ? ' justify-content-between' : ''"
     router
   >
@@ -23,7 +21,7 @@
           style="max-height: 30px"
           alt=""
         />
-        <h5 class="m-0">&nbsp;- Döküman</h5>
+        <h5 class="m-0">&nbsp;- Doküman</h5>
       </div>
     </el-menu-item>
 
@@ -32,7 +30,7 @@
         index="/kobi"
         :class="
           this.$route.path.split('/')[1] == 'kobi'
-            ? 'border-bottom h1 border-primary'
+            ? 'border-bottom border-primary'
             : ''
         "
         >Kobi</el-menu-item
@@ -41,7 +39,7 @@
         index="/on-muhasebe"
         :class="
           this.$route.path.split('/')[1] == 'on-muhasebe'
-            ? 'border-bottom h1 border-primary'
+            ? 'border-bottom border-primary'
             : ''
         "
         >Ön Muhasebe</el-menu-item
@@ -50,7 +48,7 @@
         index="/muhasebe"
         :class="
           this.$route.path.split('/')[1] == 'resmi-muhasebe'
-            ? 'border-bottom h1 border-primary'
+            ? 'border-bottom border-primary'
             : ''
         "
         >Resmi Muhasebe</el-menu-item
@@ -59,10 +57,19 @@
         index="/e-donusum"
         :class="
           this.$route.path.split('/')[1] == 'e-donusum'
-            ? 'border-bottom h1 border-primary'
+            ? 'border-bottom border-primary'
             : ''
         "
         >E-Dönüşüm</el-menu-item
+      >
+      <el-menu-item
+        index="/genel"
+        :class="
+          this.$route.path.split('/')[1] == 'genel'
+            ? 'border-bottom border-primary'
+            : ''
+        "
+        >Genel</el-menu-item
       >
       <el-menu-item class="w-100 active-iptal"></el-menu-item>
 

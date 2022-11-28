@@ -137,6 +137,7 @@
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
+            <el-divider />
             <div class="d-flex justify-content-between mb-0">
               <router-link
                 to="/docs/giris/dogrulama"

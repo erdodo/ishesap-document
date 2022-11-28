@@ -6,12 +6,14 @@ const on_muhasebe = [
     type: "menu",
     sub: [
       {
+        index: "1-1",
         icon: "bi bi-graph-up-arrow",
         name: "Grafikler",
         type: "link",
         path: "/on-muhasebe/ozet/gostergeler",
       },
       {
+        index: "1-2",
         icon: "bi bi-graph-up-arrow",
         name: "Raporlama",
         type: "link",
@@ -123,28 +125,28 @@ const on_muhasebe = [
         path: "/on-muhasebe/stok-hizmet-yonetimi/stoklar",
       },
       {
-        index: "6-1",
+        index: "6-3",
         icon: "bi bi-card-list",
         name: "Dönüşüm",
         type: "link",
         path: "/on-muhasebe/stok-hizmet-yonetimi/uretim",
       },
       {
-        index: "6-3",
+        index: "6-4",
         icon: "bi bi-arrow-down-up",
         name: "Stok Hareketleri",
         type: "link",
         path: "/on-muhasebe/stok-hizmet-yonetimi/stok-hareketleri",
       },
       {
-        index: "6-4",
+        index: "6-5",
         icon: "bi bi-card-list",
         name: "Hizmet-Masraf Kartları",
         type: "link",
         path: "/on-muhasebe/stok-hizmet-yonetimi/hizmet-masraf-kartlari",
       },
       {
-        index: "6-5",
+        index: "6-6",
         icon: "bi bi-card-list",
         name: "Depo Kartları",
         type: "link",
@@ -245,33 +247,93 @@ const e_donusum = [
 ];
 const kobi = [
   {
-    index: "1",
+    index: "12",
     icon: "bi bi-people",
     name: "Cari Hesap",
     type: "link",
     path: "/kobi/cari-hesap",
   },
   {
-    index: "2",
+    index: "13",
     icon: "bi bi-basket",
     name: "Sipariş",
     type: "link",
     path: "/kobi/siparis",
   },
   {
-    index: "3",
+    index: "14",
     icon: "bi bi-safe",
     name: "Kasa",
     type: "link",
     path: "/kobi/kasa",
   },
   {
-    index: "4",
+    index: "15",
     icon: "bi bi-bank",
     name: "Banka",
     type: "link",
     path: "/kobi/banka",
   },
 ];
+const genel = [
+  {
+    index: "16",
+    icon: "bi bi-graph-up-arrow",
+    name: "Giriş Ekranı",
+    type: "menu",
+    sub: [
+      {
+        index: "16-1",
+        icon: "bi bi-graph-up-arrow",
+        name: "Giriş",
+        type: "link",
+        path: "/genel/giris-ekrani/giris",
+      },
+      {
+        index: "16-2",
+        icon: "bi bi-graph-up-arrow",
+        name: "Şifremi Unuttum",
+        type: "link",
+        path: "/genel/giris-ekrani/sifremi-unuttum",
+      },
+    ],
+  },
+  {
+    index: "17",
+    icon: "bi bi-people-fill",
+    name: "Kayıt",
+    type: "link",
+    path: "/genel/kayit-ekrani/kayit",
+  },
+  {
+    index: "18",
+    icon: "bi bi-people-fill",
+    name: "Telefon Doğrulaması",
+    type: "link",
+    path: "/genel/dogrulama-ekrani/dogrulama",
+  },
+  {
+    index: "19",
+    icon: "bi bi-graph-up-arrow",
+    name: "Kullanıcı",
+    type: "menu",
+    sub: [
+      {
+        index: "19-1",
+        icon: "bi bi-graph-up-arrow",
+        name: "Profil",
+        type: "link",
+        path: "/genel/kullanici/profil",
+      },
+      {
+        index: "19-2",
+        icon: "bi bi-graph-up-arrow",
+        name: "Firma",
+        type: "link",
+        path: "/genel/kullanici/firma",
+      },
+    ],
+  },
+];
 
-export default { on_muhasebe, e_donusum, kobi };
+export default { on_muhasebe, e_donusum, kobi, genel };
