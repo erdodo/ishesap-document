@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/login/giris-ekrani", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/buro-yonetimi/sabit-isletme-giderleri", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/kobi/kobi-efatura", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/buro-yonetimi/kiralar", {data:[{}],fetch:{},mutations:[]});

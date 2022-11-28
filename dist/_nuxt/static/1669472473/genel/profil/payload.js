@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/genel/profil", {data:[{}],fetch:{},mutations:[]});
