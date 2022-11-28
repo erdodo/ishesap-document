@@ -42,46 +42,47 @@
                   <!--begin::Icons-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>Kayıt ol ekranı üç aşamadan oluşur.</p>
-                <ol>
-                  <li>Kullanıcı</li>
-                  <li>Firma</li>
-                  <li>Ek Bilgiler</li>
-                </ol>
-                <p>
-                  “Kullanıcı” bölümünde kişinin Adı, Soyadı, Telefon Numarası,
-                  E-posta Adresi ve Şifre bulunur. Bunları doldurmak zorunludur.
-                  Burada ki bilgileri doğru bir şekilde doldurmak önemlidir.
-                  Sonraki butonuna tıklandığında ikinci adıma geçilir.
-                </p>
-                <p>
-                  "Firma" bölümünde, Firma Adı, kayıtlı Vergi Dairesi ve TCKN ya
-                  da VKN bulunur. Zorunlu alanların doldurulması gerekir.
-                  Sonraki butonu ile son adıma geçilir.
-                </p>
-                <p>
-                  "Ek Bilgiler" bölümünde ise Paket seçimi ve varsa “Promosyon
-                  Kodu” girilebilir. Üye Ol butonuna tıkladıktan sonra girmiş
-                  olduğunuzu telefona bir doğrulama kodu gönderilir. 6 haneli bu
-                  kodu açılan ekranda doğru bir şekilde girdiğinizde kayıt
-                  işlemi başarılı bir şekilde gerçekleşir ve sizi "Anasayfa" ya
-                  yönlendirir.
-                </p>
-                <p>
-                  *Promosyon Kodunuz yoksa ilk başta 30 günlük deneme süresi ile
-                  kullanıma başlayabilirsiniz.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>Kayıt ol ekranı üç aşamadan oluşur.</p>
+                  <ol>
+                    <li>Kullanıcı</li>
+                    <li>Firma</li>
+                    <li>Ek Bilgiler</li>
+                  </ol>
+                  <p>
+                    “Kullanıcı” bölümünde kişinin Adı, Soyadı, Telefon Numarası,
+                    E-posta Adresi ve Şifre bulunur. Bunları doldurmak
+                    zorunludur. Burada ki bilgileri doğru bir şekilde doldurmak
+                    önemlidir. Sonraki butonuna tıklandığında ikinci adıma
+                    geçilir.
+                  </p>
+                  <p>
+                    "Firma" bölümünde, Firma Adı, kayıtlı Vergi Dairesi ve TCKN
+                    ya da VKN bulunur. Zorunlu alanların doldurulması gerekir.
+                    Sonraki butonu ile son adıma geçilir.
+                  </p>
+                  <p>
+                    "Ek Bilgiler" bölümünde ise Paket seçimi ve varsa “Promosyon
+                    Kodu” girilebilir. Üye Ol butonuna tıkladıktan sonra girmiş
+                    olduğunuzu telefona bir doğrulama kodu gönderilir. 6 haneli
+                    bu kodu açılan ekranda doğru bir şekilde girdiğinizde kayıt
+                    işlemi başarılı bir şekilde gerçekleşir ve sizi "Anasayfa"
+                    ya yönlendirir.
+                  </p>
+                  <p>
+                    *Promosyon Kodunuz yoksa ilk başta 30 günlük deneme süresi
+                    ile kullanıma başlayabilirsiniz.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/kobi/kasa"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

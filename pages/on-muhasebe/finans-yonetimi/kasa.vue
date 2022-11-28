@@ -16,7 +16,9 @@
               <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
                 Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item :to="{ path: '/on-muhasebe/finans-yonetimi' }">
+              <el-breadcrumb-item
+                :to="{ path: '/on-muhasebe/finans-yonetimi' }"
+              >
                 Finans Yönetimi
               </el-breadcrumb-item>
               <el-breadcrumb-item>Kasa İşlemleri</el-breadcrumb-item>
@@ -41,85 +43,92 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Bu panelde hiçbir işlem yapılmamaktadır. Burası görüntüleme ve
-                  listelemek için tasarlanmıştır. Diğer panellerden yapıtığınız,
-                  Kasanızı etkileyen tüm işlemler buraya yansıtılır. Kasanın
-                  güncel bakiye durumu görüntülenir.
-                </p>
-                <p>Tahsilat İşlemi</p>
-                <p>
-                  Kasaya Tahsilat yapmak için bu panel kullanılabilir. Yapılan
-                  işlemler tabloda listelenir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Açıklama, Kasa, İşlem Tipi, Belge No, İşlem
-                  Tarihi, Para Birimi, KDV, KDV Dahil, KDV Tutarı, Tutar, Vergi
-                  Açıklaması, Vergili Ödenecek Tutar, Döviz Kuru, Dövizli Tutar
-                  kolonları bulunmaktadır.
-                </p>
-                <p>
-                  Bazı kolonlar veri girişine kapalıdır. Kendi içlerinde
-                  hesaplanırlar ya da otomatik doldurulurlar. Ayrıca İşlem Tipi
-                  seçildiğinde içerisinde “Kasa, Banka, Hizmet – Masraf ve Cari”
-                  bulunur. Bunlarda biri seçildiğinde onun kolonu da açılır. Ve
-                  ayrıca bunlardan “Cari” seçilirse “Tip” adında bir kolon daha
-                  gösterilir. Bunun içeride ise “Fatura, Çek, Senet, Sabit Gider
-                  ve Diğer” adında seçimler bulunur. Fatura seçildiğinde “Satış
-                  Fatura”, Çek seçildiğinde “Müşteri Çek”, Senet seçildiğinde
-                  “Müşteri Senet” kolonları gelirken “Sabit Gider” ya da “Diğer”
-                  seçeneklerinde yeni bir kolon gelmez.
-                </p>
-                <p>
-                  Kolonların bazıları seçildiğinde içerisinde bulunan (daha
-                  önceden tanımlanmış) verilerin aynıları var ise o kolonlar
-                  otomatik doldurulur. Örneğin; Kasamızdan, seçilen Cari Hesaba
-                  tanımlı bir Müşteri Çek’in tahsilatını yapmak istiyoruz. Bunun
-                  için Kasamızı seçeriz. İşlem Tipi olarak Cari seçildikten
-                  sonra “Cari Hesap ve Tip” kolonları açılır. Buradan istenilen
-                  Cari seçilir ve Tip seçiminden Çek seçilir. Hangi çek tahsil
-                  edilecekse o seçilir. Çekin içinde tanımlı olan Tutar, Döviz
-                  Kuru, Dövizli Tutar ve Para Birimi otomatik olarak doldurulur
-                  ve aktifliği kalkar, artık düzenlenemez hale gelir. Diğer
-                  kalan bilgilerde doldurulabilir ve “Ekle” tıklandığında
-                  seçilen çek kasamızdan tahsil edilmiş olur.
-                </p>
-                <p>
-                  *Bu kolonlardan biri seçildiğinde ise diğerleri gizlenir ve
-                  aktifliği kalkar.
-                </p>
-                <p>Ödeme İşlemi</p>
-                <p>
-                  Kasadan Ödeme yapılacaksa bu panel kullanılabilir. Yapılan
-                  işlemler tabloda listelenir.
-                </p>
-                <p>
-                  *Boş tablolarda ortada ilgili tabloda veri olmadığını belirten
-                  bir yazı ve simge bulunur. Ekleme işlemi yapılabilen
-                  tablolarda buraya da tıklanarak ekleme yapılabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Açıklama, Kasa, İşlem Tipi, Belge No, İşlem
-                  Tarihi, Para Birimi, KDV, KDV Dahil, KDV Tutarı, Tutar, Vergi
-                  Açıklaması, Vergili Ödenecek Tutar, Döviz Kuru, Dövizli Tutar
-                  kolonları bulunmaktadır. Burasıda neredeyse tamamen Tahsilat
-                  İşlemi menüsü ile aynıdır. Sadece “Tip” bölümünde Fatura
-                  seçildiğinde “Alış Fatura”, Çek seçildiğinde “Firma Çek”,
-                  Senet seçildiğinde “Firma Senet” kolonları gelirken yine
-                  “Sabit Gider” ya da “Diğer” seçeneklerinde yeni bir kolon
-                  gelmez.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <h5>Bakiye Listesi</h5>
+                  <p>
+                    Kasa "Bakiye Listesi" panelinde hiçbir işlem
+                    yapılmamaktadır. Burası görüntüleme ve listelemek için
+                    tasarlanmıştır. Diğer panellerden yaptığınız ve Kasanızı
+                    etkileyen tüm işlemler buraya yansıtılır. Kasanın güncel
+                    bakiye durumu görüntülenir.
+                  </p>
+                  <h5>Kasa Kartı</h5>
+                  <p>
+                    Kasanızdan işlem yapmak için önce kart oluşturmalısınız.
+                    Kasa Kartı bölümünde Şube, para birimi, kişisel tanımı gibi
+                    verileri doldurup oluşturabilirsiniz.
+                  </p>
+                  <h5>Tahsilat</h5>
+                  <p>
+                    Kasaya Tahsilat yapmak için bu panel kullanılabilir. Yapılan
+                    işlemler tabloda listelenir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Kasa, İşlem Tipi, Belge No, Düzenleme
+                    Tarihi, Para Birimi, KDV, KDV Dahil, KDV Tutarı, Tutar,
+                    Vergili Ödenecek Tutar, Döviz Kuru, Dövizli Tutar, Açıklama
+                    kolonları bulunmaktadır.
+                  </p>
+                  <p>
+                    Bazı kolonlar veri girişine kapalıdır. Kendi içlerinde
+                    hesaplanırlar ya da otomatik doldurulurlar. Ayrıca İşlem
+                    Tipi seçildiğinde içerisinde “Kasa, Banka ve Cari” bulunur.
+                    Bunlardan biri seçildiğinde ona ait kolon da açılır ve
+                    ayrıca bunlardan “Cari” seçilirse “Tip” adında bir kolon
+                    daha gösterilir. Bunun içeride ise “Fatura, Çek, Senet ve
+                    Diğer” adında seçimler bulunur. Fatura seçildiğinde “Satış
+                    Fatura”, Çek seçildiğinde “Müşteri Çek”, Senet seçildiğinde
+                    “Müşteri Senet” kolonları gelirken “Diğer” seçeneğinde yeni
+                    bir kolon gelmez.
+                  </p>
+                  <p>
+                    Kolonların bazıları seçildiğinde ortalı bir modal açılır ve
+                    işleme oradan devam edilir. Örneğin; Kasamızdan, seçilen
+                    Cari Hesaba tanımlı bir Müşteri Çek’in tahsilatını yapmak
+                    istiyoruz. Bunun için Kasamızı seçeriz. İşlem Tipi olarak
+                    Cari seçildikten sonra “Cari Hesap ve Tip” kolonları açılır.
+                    Buradan istenilen Cari seçilir ve Tip seçiminden Çek
+                    seçilir. Hangi çek tahsil edilecekse o seçilir. Sağ panel
+                    kapanıp ortaya başka bir panel açılır. Burada seçilem Çek
+                    için bilgiler yer alırken alt tarafta bulunan seçimler
+                    yapılır ve tahsilat işlemi tamamlanabilir.
+                  </p>
+                  <p>
+                    *Bu kolonlardan biri seçildiğinde ise diğerleri gizlenir ve
+                    aktifliği kalkar.
+                  </p>
+                  <h5>Ödeme</h5>
+                  <p>
+                    Kasadan Ödeme yapılacaksa bu panel kullanılabilir. Yapılan
+                    işlemler tabloda listelenir.
+                  </p>
+                  <p>
+                    *Boş tablolarda ortada ilgili tabloda veri olmadığını
+                    belirten bir yazı ve simge bulunur. Ekleme işlemi
+                    yapılabilen tablolarda buraya da tıklanarak ekleme
+                    yapılabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Kasa, İşlem Tipi, Belge No, Düzenleme
+                    Tarihi, Para Birimi, KDV, KDV Dahil, KDV Tutarı, Tutar,
+                    Vergi Açıklaması, Vergili Ödenecek Tutar, Döviz Kuru,
+                    Dövizli Tutar, Açıklama kolonları bulunmaktadır. Burasıda
+                    neredeyse tamamen Tahsilat İşlemi menüsü ile aynıdır. Sadece
+                    “Tip” bölümünde Fatura seçildiğinde “Alış Fatura”, Çek
+                    seçildiğinde “Firma Çek”, Senet seçildiğinde “Firma Senet”
+                    kolonları gelirken yine “Diğer” seçeneğinde yeni bir kolon
+                    gelmez.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/finans-yonetimi/kartlar"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

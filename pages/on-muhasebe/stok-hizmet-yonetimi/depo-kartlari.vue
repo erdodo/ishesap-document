@@ -43,31 +43,30 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
+                <article>
+                  <p>
+                    Ürünlerin belirli noktalarda teslim alınıp, belirlenmiş süre
+                    boyunca tutulup, belirli noktalara teslim edilmek üzere
+                    hazırlanmasıdır. Bu bağlamda, stok giriş-çıkış işlemlerinde,
+                    stok hareketlerini etkileyen işlemlerde seçilmesi gerek Depo
+                    Kartları burada oluşturulur.
+                  </p>
 
-                <p>
-                  Ürünlerin belirli noktalarda teslim alınıp, belirlenmiş süre
-                  boyunca tutulup, belirli noktalara teslim edilmek üzere
-                  hazırlanmasıdır. Bu bağlamda, stok giriş-çıkış işlemlerinde,
-                  stok hareketlerini etkileyen işlemlerde seçilmesi gerek Depo
-                  Kartları burada oluşturulur.
-                </p>
-
-                <p>
-                  Ekleme menüsünde; Depo Adı ve Depo Kodu kolonları
-                  bulunmaktadır. Burada "Depo Adı" zorunlu tutulmuştur. Diğer
-                  kolonlar isteğe göre doldurulabilir.
-                </p>
-                <!--end::Summary-->
+                  <p>
+                    Ekleme menüsünde; Depo Adı ve Depo Kodu kolonları
+                    bulunmaktadır. Burada "Depo Adı" zorunlu tutulmuştur. Diğer
+                    kolonlar isteğe göre doldurulabilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/stok-hizmet-yonetimi/hizmet-masraf-kartlari"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

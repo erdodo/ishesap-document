@@ -16,7 +16,9 @@
               <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
                 Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item :to="{ path: '/on-muhasebe/finans-yonetimi' }">
+              <el-breadcrumb-item
+                :to="{ path: '/on-muhasebe/finans-yonetimi' }"
+              >
                 Finans Yönetimi
               </el-breadcrumb-item>
               <el-breadcrumb-item>Senet İşlemleri</el-breadcrumb-item>
@@ -41,88 +43,89 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>Müşteri Senet</p>
-                <p>
-                  Gelen senetlerin listelendiği ekrandır. Müşteri Senetler
-                  “Ekle” menüsünden ilgili kolonları doldurarak oluşturulabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Cari Hesap, Senet Numarası, Müşteri Senet
-                  Tarihi, Vade Tarihi, Hesap No, Şehirler, Para Birimi, Dövizli
-                  Tutar, Tutar, Döviz Kuru, Döviz Kuru Kaynağı, Döviz Kuru
-                  Açıklaması, Kur Tarihi, İşlem Tarihi, Etiket ve Pozisyon
-                  kolonları bulunur.
-                </p>
-                <p>
-                  *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
-                  doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
-                </p>
-                <p>
-                  *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
-                  Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
-                  Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
-                  bulunur.
-                </p>
-                <p>Firma Senet</p>
-                <p>
-                  Giden senetlerin listelendiği ekrandır. Firma Senetler “Ekle”
-                  menüsünden ilgili kolonları doldurarak oluşturulabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Cari Hesap, Senet Numarası, Müşteri Senet
-                  Tarihi, Vade Tarihi, Hesap No, Şehirler, Para Birimi, Dövizli
-                  Tutar, Tutar, Döviz Kuru, Döviz Kuru Kaynağı, Döviz Kuru
-                  Açıklaması, Kur Tarihi, İşlem Tarihi, Etiket ve Pozisyon
-                  kolonları bulunur.
-                </p>
-                <p>
-                  *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
-                  doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
-                </p>
-                <p>
-                  *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
-                  Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
-                  Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
-                  bulunur.
-                </p>
-                <p>
-                  Gelen Çeklerde ve Senetlerde Tahsilat işlemi yapılabilir.
-                  Bunun için ilgili verinin sağ tarafında Hızlı İşlem sütununda
-                  “Tahsilat” butonu vardır. Buna tıkladığımızda bir panel
-                  açılır.
-                </p>
-                <p>
-                  Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
-                  altında Banka ya da Kasa seçimi bulunur. Nereden tahsil
-                  edilmesini istiyorsa orası seçilir. Örneğin kasayı seçtik.
-                  Sonrasında daha önceden oluşturduğumuz, istediğimiz bir kasayı
-                  seçiyoruz ve “Tahsil Et” butonuna tıklıyoruz. Eğer herşey
-                  doğruysa işlem başarılı bir şekilde gerçekleşecektir.
-                </p>
-                <p>
-                  Giden Çeklerde ve Senetlerde ise Ödeme işlemi yapılabilir.
-                  Bunun için ilgili verinin sağ tarafında Hızlı İşlem sütununda
-                  “Ödeme” butonu vardır. Buna tıkladığımızda bir panel açılır.
-                </p>
-                <p>
-                  Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
-                  altında Banka ya da Kasa seçimi bulunur. Nereden ödeme
-                  yapılmak isteniyorsa orası seçilir. Örneğin bankayı seçtik.
-                  Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
-                  bankayı seçiyoruz ve “Ödeme” butonuna tıklıyoruz. Eğer herşey
-                  doğruysa işlem başarılı bir şekilde gerçekleşecektir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <h5>Gelen Senet</h5>
+                  <p>
+                    Gelen senetlerin listelendiği ekrandır. Gelen Senetler
+                    “Ekle” menüsünden ilgili kolonları doldurarak
+                    oluşturulabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Cari Hesap, Senet Numarası, Müşteri Senet
+                    Tarihi, Vade Tarihi, Hesap No, Şehirler, Para Birimi,
+                    Dövizli Tutar, Tutar, Döviz Kuru, Etiket ve Pozisyon
+                    kolonları bulunur.
+                  </p>
+                  <p>
+                    *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
+                    doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
+                  </p>
+                  <p>
+                    *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
+                    Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
+                    Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
+                    bulunur.
+                  </p>
+                  <h5>Giden Senet</h5>
+                  <p>
+                    Giden senetlerin listelendiği ekrandır. Giden Senetler
+                    “Ekle” menüsünden ilgili kolonları doldurarak
+                    oluşturulabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Cari Hesap, Senet Numarası, Müşteri Senet
+                    Tarihi, Vade Tarihi, Hesap No, Şehirler, Para Birimi,
+                    Dövizli Tutar, Tutar, Döviz Kuru, Etiket ve Pozisyon
+                    kolonları bulunur.
+                  </p>
+                  <p>
+                    *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
+                    doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
+                  </p>
+                  <p>
+                    *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
+                    Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
+                    Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
+                    bulunur.
+                  </p>
+                  <p>
+                    Gelen Çeklerde ve Senetlerde Tahsilat işlemi yapılabilir.
+                    Bunun için ilgili verinin sağ tarafında Hızlı İşlem
+                    sütununda “Tahsilat” butonu vardır. Buna tıkladığımızda bir
+                    panel açılır.
+                  </p>
+                  <p>
+                    Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
+                    altında Banka ya da Kasa seçimi bulunur. Nereden tahsil
+                    edilmesini istiyorsa orası seçilir. Örneğin kasayı seçtik.
+                    Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
+                    kasayı seçiyoruz ve “Tahsil Et” butonuna tıklıyoruz. Eğer
+                    herşey doğruysa işlem başarılı bir şekilde gerçekleşecektir.
+                  </p>
+                  <p>
+                    Giden Çeklerde ve Senetlerde ise Ödeme işlemi yapılabilir.
+                    Bunun için ilgili verinin sağ tarafında Hızlı İşlem
+                    sütununda “Ödeme” butonu vardır. Buna tıkladığımızda bir
+                    panel açılır.
+                  </p>
+                  <p>
+                    Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
+                    altında Banka ya da Kasa seçimi bulunur. Nereden ödeme
+                    yapılmak isteniyorsa orası seçilir. Örneğin bankayı seçtik.
+                    Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
+                    bankayı seçiyoruz ve “Ödeme” butonuna tıklıyoruz. Eğer
+                    herşey doğruysa işlem başarılı bir şekilde gerçekleşecektir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/finans-yonetimi/cek-senet/cek/musteri-cek"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

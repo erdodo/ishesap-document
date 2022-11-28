@@ -42,42 +42,42 @@
                   <!--begin::Icons-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Doğrulama ekranları sistemde ki güvenliği yüksek tutmak adına
-                  birçok yerde kullanılmaktadır. Sistemde kayıtlı telefon
-                  numaranıza 6 haneli bir kod gönderilir ve sizden onu doğru bir
-                  şekilde girmeniz beklenir.
-                </p>
-                <p>
-                  Giriş yaptıktan sonra (eğer telefon doğrulaması aktifse)
-                  kayıtlı telefon numaranıza 6 haneli bir doğrulama kodu
-                  gönderilir. 2 dakika içinde telefonunuza gelen kod doğru
-                  girildiyse başarılı bir şekilde giriş yapılır ve sizi
-                  Anasayfaya yönlendirir.
-                </p>
-                <p>
-                  Kayıt olurken son aşamadan sonra kayıtlı telefon numaranıza 6
-                  haneli bir doğrulama kodu gönderilir. 2 dakika içinde
-                  telefonunuza gelen kod doğru girildiyse başarılı bir şekilde
-                  kayıt tamamlanır ve sizi Anasayfaya yönlendirir.
-                </p>
-                <p>
-                  Profil kısmında şifrenizi değiştirmek isterseniz kayıtlı
-                  telefon numaranıza 6 haneli bir doğrulama kodu gönderilir. 2
-                  dakika içinde gelen kod doğru girildiyse başarılı bir şekilde
-                  şifreniz değiştirilir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Doğrulama ekranları sistemde ki güvenliği yüksek tutmak
+                    adına birçok yerde kullanılmaktadır. Sistemde kayıtlı
+                    telefon numaranıza 6 haneli bir kod gönderilir ve sizden onu
+                    doğru bir şekilde girmeniz beklenir.
+                  </p>
+                  <p>
+                    Giriş yaptıktan sonra (eğer telefon doğrulaması aktifse)
+                    kayıtlı telefon numaranıza 6 haneli bir doğrulama kodu
+                    gönderilir. 2 dakika içinde telefonunuza gelen kod doğru
+                    girildiyse başarılı bir şekilde giriş yapılır ve sizi
+                    Anasayfaya yönlendirir.
+                  </p>
+                  <p>
+                    Kayıt olurken son aşamadan sonra kayıtlı telefon numaranıza
+                    6 haneli bir doğrulama kodu gönderilir. 2 dakika içinde
+                    telefonunuza gelen kod doğru girildiyse başarılı bir şekilde
+                    kayıt tamamlanır ve sizi Anasayfaya yönlendirir.
+                  </p>
+                  <p>
+                    Profil kısmında şifrenizi değiştirmek isterseniz kayıtlı
+                    telefon numaranıza 6 haneli bir doğrulama kodu gönderilir. 2
+                    dakika içinde gelen kod doğru girildiyse başarılı bir
+                    şekilde şifreniz değiştirilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/kobi/kasa"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

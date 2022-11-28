@@ -44,23 +44,24 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <div class="fs-base fw-normal text-gray-700 my-4 docText">
-                  İlgili sayfada Stok bilgileri gösterilmektedir. Bu sayfada bir
-                  Ekleme, Düzenleme ya da Silme işlemi yapılamaz. Stoğunuzu
-                  etkileyecek işlemler yapıldığında burada gösterilir.
-                  Stoklarınızı takip etmenizi sağlayan bu menü aynı zamanda
-                  günlük dosyası gibi düşünülebilir.
-                </div>
-                <!--end::Summary-->
+                <article>
+                  <div class="fs-base fw-normal text-gray-700 my-4 docText">
+                    İlgili sayfada Stok bilgileri gösterilmektedir. Bu sayfada
+                    bir Ekleme, Düzenleme ya da Silme işlemi yapılamaz.
+                    Stoğunuzu etkileyecek işlemler yapıldığında burada
+                    gösterilir. Stoklarınızı takip etmenizi sağlayan bu menü
+                    aynı zamanda günlük dosyası gibi düşünülebilir.
+                  </div>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/stok-hizmet-yonetimi/stok-kartlari"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

@@ -44,25 +44,25 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-
-                <p>
-                  İlgili sayfada Stok Hareketleri bilgileri gösterilmektedir. Bu
-                  sayfada bir Ekleme, Düzenleme ya da Silme işlemi yapılamaz.
-                  Stoklarınız içerisindeki bütün hareketliliği listelemek
-                  amacıyla oluşturulmuştur. Stoklar üzerinde yapılan tüm
-                  hareketliliği takip etmenizi sağlayan bu menü aynı zamanda
-                  günlük dosyası gibi düşünülebilir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    İlgili sayfada Stok Hareketleri bilgileri gösterilmektedir.
+                    Bu sayfada bir Ekleme, Düzenleme ya da Silme işlemi
+                    yapılamaz. Stoklarınız içerisindeki bütün hareketliliği
+                    listelemek amacıyla oluşturulmuştur. Stoklar üzerinde
+                    yapılan tüm hareketliliği takip etmenizi sağlayan bu menü
+                    aynı zamanda günlük dosyası gibi düşünülebilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/stok-hizmet-yonetimi/stoklar"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

@@ -43,31 +43,31 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Bu sayfada oluşturulan Sabit Kıymet Hareketleri listelenir.
-                  Ayrıca Fatura, İrsaliye gibi işlemlerin hareketleride burada
-                  listelenir. Sağ üstten Ekle butonuna tıklanarak ekleme
-                  yapılabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Sabit Kıymet Kartı, Belge Numarası, Belge
-                  Tipi, Belge Tarihi, Giriş Depo, Çıkış Depo, Miktar, Aktife
-                  Giriş Tarihi, Aktife Giriş Değeri ve Devreden Birikmiş
-                  Amortisman Tutarı kolonları bulunmaktadır. Burada "Belge
-                  Numarası" zorunlu tutulmuştur. Diğer kolonlar isteğe göre
-                  doldurulabilir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Bu sayfada oluşturulan Sabit Kıymet Hareketleri listelenir.
+                    Ayrıca Fatura, İrsaliye gibi işlemlerin hareketleride burada
+                    listelenir. Sağ üstten Ekle butonuna tıklanarak ekleme
+                    yapılabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Sabit Kıymet Kartı, Belge Numarası, Belge
+                    Tipi, Belge Tarihi, Giriş Depo, Çıkış Depo, Miktar, Aktife
+                    Giriş Tarihi, Aktife Giriş Değeri ve Devreden Birikmiş
+                    Amortisman Tutarı kolonları bulunmaktadır. Burada "Belge
+                    Numarası" zorunlu tutulmuştur. Diğer kolonlar isteğe göre
+                    doldurulabilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/sabit-kiymet-yonetimi/kart"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

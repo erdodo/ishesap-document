@@ -18,22 +18,22 @@
           <!--end::Title-->
         </div>
         <!--end::Head-->
-        <!--begin::Summary-->
-        <div class="fs-base fw-normal text-gray-700 my-4 docText">
-          Profil menüsü kendi içinde bölümlere ayrılmıştır. Profil Bilgileri,
-          Firma Bilgileri, Firma Adres Bilgileri, İletişim Tercihleri gibi
-          bölümlere ayrılmıştır.
-        </div>
-        <!--end::Summary-->
+        <article>
+          <div class="fs-base fw-normal text-gray-700 my-4 docText">
+            Profil menüsü kendi içinde bölümlere ayrılmıştır. Profil Bilgileri,
+            Firma Bilgileri, Firma Adres Bilgileri, İletişim Tercihleri gibi
+            bölümlere ayrılmıştır.
+          </div>
+        </article>
       </div>
       <!--end::Question-->
       <!--begin::Separator-->
-      <div class="separator separator-dashed my-8"></div>
+      <el-divider />
       <!--end::Separator-->
     </div>
     <!--end::Questions-->
     <!--begin::Pagination-->
-    <div class="d-flex justify-content-between mb-0">
+    <div class="container d-flex justify-content-between footers">
       <router-link
         to="/docs/giris/dogrulama"
         class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

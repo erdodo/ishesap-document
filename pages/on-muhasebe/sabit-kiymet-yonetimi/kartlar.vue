@@ -43,41 +43,40 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
+                <article>
+                  <p>
+                    Bu sayfada oluşturulan Sabit Kıymet Kartları bilgileri
+                    listelenir. Sabit Kıymet kartları oluşturulup hesaplamalar
+                    yapıldıktan sonra gösterilir. Ekranın sağ üstünden Ekle
+                    butonuna tıklanarak ekleme yapılabilir.
+                  </p>
 
-                <p>
-                  Bu sayfada oluşturulan Sabit Kıymet Kartları bilgileri
-                  listelenir. Sabit Kıymet kartları oluşturulup hesaplamalar
-                  yapıldıktan sonra gösterilir. Ekranın sağ üstünden Ekle
-                  butonuna tıklanarak ekleme yapılabilir.
-                </p>
-
-                <p>
-                  Ekleme menüsünde; Sabit Kıymet Adı, Sabit Kıymet Kodu, Giriş
-                  Birimi, Çıkış Birimi, Amortisman Listesi, Faydalı Ömür, Normal
-                  Amortisman Oranı, Aktife Giriş Tarihi, Aktife Giriş Değeri,
-                  Miktar, İlave Maliyet, Toplam Aktif Değer, Devreden Birikmiş
-                  Amortisman Tutarı, Birikmiş Amortisman, Net Değer ve Kategori
-                  kolonları bulunmaktadır. Burada "Sabit Kıymet Adı ve Sabit
-                  Kıymet Kodu" zorunlu tutulmuştur. Diğer kolonlar isteğe göre
-                  doldurulabilir.
-                </p>
-                <p>
-                  "Amortisman Listesi" içerisinde seçim yapıldığında "Faydali
-                  Ömür ve Normal Amortisman Oranı" kolonları seçilen amortismana
-                  göre otomatik doldurulacaktır. Diğer bilgiler girildiğinde
-                  gerekli hesaplamalar da yapılır.
-                </p>
-                <!--end::Summary-->
+                  <p>
+                    Ekleme menüsünde; Sabit Kıymet Adı, Sabit Kıymet Kodu, Giriş
+                    Birimi, Çıkış Birimi, Amortisman Listesi, Faydalı Ömür,
+                    Normal Amortisman Oranı, Aktife Giriş Tarihi, Aktife Giriş
+                    Değeri, Miktar, İlave Maliyet, Toplam Aktif Değer, Devreden
+                    Birikmiş Amortisman Tutarı, Birikmiş Amortisman, Net Değer
+                    ve Kategori kolonları bulunmaktadır. Burada "Sabit Kıymet
+                    Adı ve Sabit Kıymet Kodu" zorunlu tutulmuştur. Diğer
+                    kolonlar isteğe göre doldurulabilir.
+                  </p>
+                  <p>
+                    "Amortisman Listesi" içerisinde seçim yapıldığında "Faydali
+                    Ömür ve Normal Amortisman Oranı" kolonları seçilen
+                    amortismana göre otomatik doldurulacaktır. Diğer bilgiler
+                    girildiğinde gerekli hesaplamalar da yapılır.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/stok-hizmet-yonetimi/depo-kartlari"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

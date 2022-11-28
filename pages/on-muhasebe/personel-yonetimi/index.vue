@@ -38,22 +38,22 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Personel Kartları, şirket, kurum altında çalışan, bulunan
-                  personellerinizi kayıt edip listeleyebildiğiniz bölümdür. Sağ
-                  üstten Ekle butonuna tıklanarak ekleme yapılabilir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Personel Kartları, şirket, kurum altında çalışan, bulunan
+                    personellerinizi kayıt edip listeleyebildiğiniz bölümdür.
+                    Sağ üstten Ekle butonuna tıklanarak ekleme yapılabilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/sabit-kiymet-yonetimi/hareket"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

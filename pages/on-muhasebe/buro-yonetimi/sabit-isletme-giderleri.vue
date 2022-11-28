@@ -41,27 +41,27 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
+                <article>
+                  <p>
+                    Sabit İşletme Giderleri, işletmenin Elektrik, Su, Telefon,
+                    Doğalgaz, Aidat gibi giderlerinin takibi için
+                    tasarlanmıştır. Eklenen giderler burada listelenir.
+                  </p>
 
-                <p>
-                  Sabit İşletme Giderleri, işletmenin Elektrik, Su, Telefon,
-                  Doğalgaz, Aidat gibi giderlerinin takibi için tasarlanmıştır.
-                  Eklenen giderler burada listelenir.
-                </p>
-
-                <p>
-                  Ekleme menüsünde; Açıklama, Gider Türü, Futara Numarası, Son
-                  Ödeme Tarihi, Para Birimi ve Tutar kolonları bulunmaktadır.
-                </p>
-                <!--end::Summary-->
+                  <p>
+                    Ekleme menüsünde; Açıklama, Gider Türü, Futara Numarası, Son
+                    Ödeme Tarihi, Para Birimi ve Tutar kolonları bulunmaktadır.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/buro-yonetimi/kiralar"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

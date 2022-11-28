@@ -42,26 +42,26 @@
                   <!--begin::Icons-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Eğer zaten kayıtlı bir kullanıcıysanız ve şifrenizi
-                  unuttuysanız bu butona tıklayınız. Açılan pencerede E-Posta
-                  adresinizi girdikten sonra "Gönder"e tıklayınız. Kayıtlı
-                  E-Posta adresinize yeni şifrenizin olduğu bir mail
-                  gönderilecektir. O şifre ile tekrar giriş yapabilir.
-                  Dilerseniz sonrasında panelde ki profil kısmından şifrenizi
-                  güncelleyebilirsiniz.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Eğer zaten kayıtlı bir kullanıcıysanız ve şifrenizi
+                    unuttuysanız bu butona tıklayınız. Açılan pencerede E-Posta
+                    adresinizi girdikten sonra "Gönder"e tıklayınız. Kayıtlı
+                    E-Posta adresinize yeni şifrenizin olduğu bir mail
+                    gönderilecektir. O şifre ile tekrar giriş yapabilir.
+                    Dilerseniz sonrasında panelde ki profil kısmından şifrenizi
+                    güncelleyebilirsiniz.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/kobi/kasa"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

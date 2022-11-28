@@ -43,87 +43,89 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <p>Müşteri Çek</p>
-                <p>
-                  Gelen çeklerimizi listelediğimiz ekrandır. Müşteri Çekler
-                  “Ekle” menüsünden ilgili kolonları doldurarak oluşturulabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Cari Hesap, Çek Numarası, Çeki Düzenleyen,
-                  Vade Tarihi, Hesap No, Banka Şube Adı, Şehirler, Para Birimi,
-                  Dövizli Tutar, Tutar, Döviz Kuru, Döviz Kuru Kaynağı, Döviz
-                  Kuru Açıklaması, Kur Tarihi, İşlem Tarihi, Etiket ve Pozisyon
-                  kolonları bulunur.
-                </p>
-                <p>
-                  *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
-                  doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
-                </p>
-                <p>
-                  *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
-                  Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
-                  Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
-                  bulunur.
-                </p>
-                <p>Firma Çek</p>
-                <p>
-                  Giden çeklerimizi listelediğimiz ekrandır. Firma Çekler “Ekle”
-                  menüsünden ilgili kolonları doldurarak oluşturulabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Cari Hesap, Çek Numarası, Çeki Düzenleyen,
-                  Vade Tarihi, Hesap No, Banka Şube Adı, Şehirler, Para Birimi,
-                  Dövizli Tutar, Tutar, Döviz Kuru, Döviz Kuru Kaynağı, Döviz
-                  Kuru Açıklaması, Kur Tarihi, İşlem Tarihi, Etiket ve Pozisyon
-                  kolonları bulunur.
-                </p>
-                <p>
-                  *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
-                  doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
-                </p>
-                <p>
-                  *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
-                  Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
-                  Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
-                  bulunur.
-                </p>
-                <p>
-                  Gelen Çeklerde ve Senetlerde Tahsilat işlemi yapılabilir.
-                  Bunun için ilgili verinin sağ tarafında Hızlı İşlem sütununda
-                  “Tahsilat” butonu vardır. Buna tıkladığımızda bir panel
-                  açılır.
-                </p>
-                <p>
-                  Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
-                  altında Banka ya da Kasa seçimi bulunur. Nereden tahsil
-                  edilmesini istiyorsa orası seçilir. Örneğin kasayı seçtik.
-                  Sonrasında daha önceden oluşturduğumuz, istediğimiz bir kasayı
-                  seçiyoruz ve “Tahsil Et” butonuna tıklıyoruz. Eğer herşey
-                  doğruysa işlem başarılı bir şekilde gerçekleşecektir.
-                </p>
-                <p>
-                  Giden Çeklerde ve Senetlerde ise Ödeme işlemi yapılabilir.
-                  Bunun için ilgili verinin sağ tarafında Hızlı İşlem sütununda
-                  “Ödeme” butonu vardır. Buna tıkladığımızda bir panel açılır.
-                </p>
-                <p>
-                  Burada ilgili çek ya da senetin bilgileri gösterilir. Hemen
-                  altında Banka ya da Kasa seçimi bulunur. Nereden ödeme
-                  yapılmak isteniyorsa orası seçilir. Örneğin bankayı seçtik.
-                  Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
-                  bankayı seçiyoruz ve “Ödeme” butonuna tıklıyoruz. Eğer herşey
-                  doğruysa işlem başarılı bir şekilde gerçekleşecektir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <h5>Gelen Çek</h5>
+                  <p>
+                    Gelen çeklerimizi listelediğimiz ekrandır. Gelen Çekler
+                    “Ekle” menüsünden ilgili kolonları doldurarak
+                    oluşturulabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Cari Hesap, Çek Numarası, Çeki Düzenleyen,
+                    Düzenleme Tarihi, Vade Tarihi, Hesap No, Banka Şube Adı,
+                    Şehirler, Tutar, Para Birimi, Dövizli Tutar, Döviz Kuru,
+                    Etiket ve Pozisyon kolonları bulunur.
+                  </p>
+                  <p>
+                    *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
+                    doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
+                  </p>
+                  <p>
+                    *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
+                    Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
+                    Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
+                    bulunur.
+                  </p>
+                  <h5>Giden Çek</h5>
+                  <p>
+                    Giden çeklerimizi listelediğimiz ekrandır. Giden Çekler
+                    “Ekle” menüsünden ilgili kolonları doldurarak
+                    oluşturulabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Cari Hesap, Çek Numarası, Çeki Düzenleyen,
+                    Düzenleme Tarihi, Vade Tarihi, Hesap No, Banka Şube Adı,
+                    Şehirler, Para Birimi, Dövizli Tutar, Tutar, Döviz Kuru,
+                    Etiket ve Pozisyon kolonları bulunur.
+                  </p>
+                  <p>
+                    *Para Birimi seçildiğinde otomatik olarak Döviz Kuru
+                    doldurulur. Tutar girildiyse eğer Dövizli Tutar hesaplanır.
+                  </p>
+                  <p>
+                    *Pozisyon kolonu seçilebilirdir. İçerisinde; Beklemede,
+                    Karşılıksız, İcrada, Tahsil Edildi, İade Edildi, Ciroda,
+                    Teminatta, Tahsilatta, Portföyde ve Ödendi seçenekleri
+                    bulunur.
+                  </p>
+                  <p>
+                    Gelen Çeklerde ve Senetlerde Tahsilat işlemi yapılabilir.
+                    Bunun için ilgili verinin sağ tarafında Hızlı İşlem
+                    sütununda “Tahsilat” butonu vardır. Buna tıkladığımızda bir
+                    panel açılır.
+                  </p>
+                  <p>
+                    Burada ilgili Çek ya da Senetin bilgileri gösterilir. Hemen
+                    altında Banka ya da Kasa seçimi bulunur. Nereden tahsil
+                    edilmesini istiyorsa orası seçilir. Örneğin kasayı seçtik.
+                    Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
+                    kasayı seçiyoruz ve “Tahsil Et” butonuna tıklıyoruz. Eğer
+                    herşey doğruysa işlem başarılı bir şekilde gerçekleşecektir.
+                  </p>
+                  <p>
+                    Giden Çeklerde ve Senetlerde ise Ödeme işlemi yapılabilir.
+                    Bunun için ilgili verinin sağ tarafında Hızlı İşlem
+                    sütununda “Ödeme” butonu vardır. Buna tıkladığımızda bir
+                    panel açılır.
+                  </p>
+                  <p>
+                    Burada ilgili Çek ya da Senetin bilgileri gösterilir. Hemen
+                    altında Banka ya da Kasa seçimi bulunur. Nereden ödeme
+                    yapılmak isteniyorsa orası seçilir. Örneğin bankayı seçtik.
+                    Sonrasında daha önceden oluşturduğumuz, istediğimiz bir
+                    bankayı seçiyoruz ve “Ödeme” butonuna tıklıyoruz. Eğer
+                    herşey doğruysa işlem başarılı bir şekilde gerçekleşecektir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/finans-yonetimi/banka"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

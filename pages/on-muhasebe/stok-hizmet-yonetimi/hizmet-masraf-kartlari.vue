@@ -16,7 +16,9 @@
               <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
                 Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }">
+              <el-breadcrumb-item
+                :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }"
+              >
                 Stok-Hizmet Yönetimi
               </el-breadcrumb-item>
               <el-breadcrumb-item>Hizmet-Masraf Kartları</el-breadcrumb-item>
@@ -44,37 +46,37 @@
                   <!--end::Icons-->
                 </div>
                 <!--end::Head-->
+                <article>
+                  <p>
+                    Stok Kartları alınan veya satılan malların takibini sağlamak
+                    için yapılmıştır. Ancak hizmet sektöründe veya hizmet
+                    alım-satım durumlarında yapılan mal değil, hizmettir. Takip
+                    edilen de hizmettir. Bu nedenle alınan ya da satılan
+                    hizmetlere ait işlemlerin takip edilebilmesi için
+                    Hizmet/Masraf Kartları sayfasına ihtiyaç duyulur. Bu
+                    bağlamda, stok takibinin yapılması mümkün olmayan işlemler
+                    ve hizmetler bu sayfada listelenir. Ekranın sağ üstünden
+                    Ekle butonu ile ekleme menüsü açılabilir.
+                  </p>
 
-                <p>
-                  Stok Kartları alınan veya satılan malların takibini sağlamak
-                  için yapılmıştır. Ancak hizmet sektöründe veya hizmet
-                  alım-satım durumlarında yapılan mal değil, hizmettir. Takip
-                  edilen de hizmettir. Bu nedenle alınan ya da satılan
-                  hizmetlere ait işlemlerin takip edilebilmesi için
-                  Hizmet/Masraf Kartları sayfasına ihtiyaç duyulur. Bu bağlamda,
-                  stok takibinin yapılması mümkün olmayan işlemler ve hizmetler
-                  bu sayfada listelenir. Ekranın sağ üstünden Ekle butonu ile
-                  ekleme menüsü açılabilir.
-                </p>
-
-                <p>
-                  Ekleme menüsünde; Açıklama, Hizmet Masraf Adı, Hizmet Masraf
-                  Kodu, Hizmet Masraf Türü, Para Birimi, KDV, KDV Dahil, Vergili
-                  Ödenecek Tutar, Birim Fiyat, Etiket ve Kategori kolonları
-                  bulunmaktadır. Burada "Hizmet Masraf Adı, Hizmet Masraf Kodu
-                  ve Para Birimi" zorunlu tutulmuştur. Diğer kolonlar isteğe
-                  göre doldurulabilir.
-                </p>
-                <!--end::Summary-->
+                  <p>
+                    Ekleme menüsünde; Açıklama, Hizmet Masraf Adı, Hizmet Masraf
+                    Kodu, Hizmet Masraf Türü, Para Birimi, KDV, KDV Dahil,
+                    Vergili Ödenecek Tutar, Birim Fiyat, Etiket ve Kategori
+                    kolonları bulunmaktadır. Burada "Hizmet Masraf Adı, Hizmet
+                    Masraf Kodu ve Para Birimi" zorunlu tutulmuştur. Diğer
+                    kolonlar isteğe göre doldurulabilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/stok-hizmet-yonetimi/stok-hareketleri"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

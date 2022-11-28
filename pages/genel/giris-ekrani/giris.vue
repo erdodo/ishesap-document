@@ -42,24 +42,24 @@
                   <!--begin::Icons-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Tanıtım sayfamızda sağ üstte “Giriş Yap” butonuna
-                  tıklanıldığında Kullanıcı Girişi sayfası karşımıza çıkıyor.
-                  Burada daha önceden üye olan kullanıcılar yazılıma giriş
-                  yapabilir. Eğer bir hesabınız yoksa “Üyeliğimi Başlat” butonu
-                  ile Kayıt olma ekranına gidilebilir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Tanıtım sayfamızda sağ üstte “Giriş Yap” butonuna
+                    tıklanıldığında Kullanıcı Girişi sayfası karşımıza çıkıyor.
+                    Burada daha önceden üye olan kullanıcılar yazılıma giriş
+                    yapabilir. Eğer bir hesabınız yoksa “Üyeliğimi Başlat”
+                    butonu ile Kayıt olma ekranına gidilebilir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/kobi/kasa"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

@@ -44,38 +44,38 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
+                <article>
+                  <p>
+                    Bu sayfada oluşturulan Stok Kartları bilgileri listelenir.
+                    Stok Kartı eklerken sizin doldurabileceğiniz birçok alan
+                    bulunurken burada sadece belirlediklerimiz gösterilir.
+                  </p>
 
-                <p>
-                  Bu sayfada oluşturulan Stok Kartları bilgileri listelenir.
-                  Stok Kartı eklerken sizin doldurabileceğiniz birçok alan
-                  bulunurken burada sadece belirlediklerimiz gösterilir.
-                </p>
-
-                <p>
-                  Ekleme menüsünde; Açıklama, Stok Adı, Stok Türü, Stok Kodu,
-                  Giriş Birimi, Çıkış Birimi, Birim Fiyat Formatı, Para Birimi,
-                  Alış Fiyatı, Alış KDV Oranı, Satış Fiyatı, Satış KDV Oranı,
-                  Asgari Stok, Azami Stok, Fire Oranı, Temin Süresi, Ağırlık,
-                  Genişlik, Yükseklik, Derinlik, Alan, Hacim ve bunların
-                  türlerine ait kolonlar bulunmaktadır. Burada "Stok Adı, Stok
-                  Kodu ve Para Birimi" zorunlu tutulmuştur. Diğer kolonlar
-                  isteğe göre doldurulabilir. Giriş ve Çıkış Birimlerinin
-                  içeriği; Adet, Çift, Gün, Saat, Paket, Kutu, Kilogram, Gram,
-                  Ton, Litre, Mililitre, Santimetre, Metre, Metrekare,
-                  Santimetrekare, Kilowatt saat değerleri bulunur. Ürün
-                  (malzeme) bilgilerinizi girip Ekle butonuna tıklandıktan sonra
-                  Stok Kartınız oluşturulur.
-                </p>
-                <!--end::Summary-->
+                  <p>
+                    Ekleme menüsünde; Açıklama, Stok Adı, Stok Türü, Stok Kodu,
+                    Giriş Birimi, Çıkış Birimi, Birim Fiyat Formatı, Para
+                    Birimi, Alış Fiyatı, Alış KDV Oranı, Satış Fiyatı, Satış KDV
+                    Oranı, Asgari Stok, Azami Stok, Fire Oranı, Temin Süresi,
+                    Ağırlık, Genişlik, Yükseklik, Derinlik, Alan, Hacim ve
+                    bunların türlerine ait kolonlar bulunmaktadır. Burada "Stok
+                    Adı, Stok Kodu ve Para Birimi" zorunlu tutulmuştur. Diğer
+                    kolonlar isteğe göre doldurulabilir. Giriş ve Çıkış
+                    Birimlerinin içeriği; Adet, Çift, Gün, Saat, Paket, Kutu,
+                    Kilogram, Gram, Ton, Litre, Mililitre, Santimetre, Metre,
+                    Metrekare, Santimetrekare, Kilowatt saat değerleri bulunur.
+                    Ürün (malzeme) bilgilerinizi girip Ekle butonuna
+                    tıklandıktan sonra Stok Kartınız oluşturulur.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/alis-satis-yonetimi/siparis"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

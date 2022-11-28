@@ -43,85 +43,93 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Bu panelde hiçbir işlem yapılmamaktadır. Burası görüntüleme ve
-                  listelemek için tasarlanmıştır. Diğer panellerden yapıtığınız,
-                  Bankanızı etkileyen tüm işlemler buraya yansıtılır. Bankanın
-                  güncel bakiye durumu görüntülenir.
-                </p>
-                <p>Gelen Havale İşlemi</p>
-                <p>
-                  Bankaya gelen havale burada listelenir. Gelen Havale İşlemi
-                  oluşturmak için “Ekle” butonuna tıklanmalıdır.
-                </p>
-                <p>
-                  Ekleme menüsünde; Açıklama, Banka, İşlem Tipi, Belge No, İşlem
-                  Tarihi, Tutar, Para Birimi, KDV, KDV Dahil, KDV Tutarı, Kaynak
-                  Belge, Vergi Açıklaması, Vergili Ödenecek Tutar, Döviz Kuru,
-                  Dövizli Tutar kolonları bulunmaktadır.
-                </p>
-                <p>
-                  Bazı kolonlar veri girişine kapalıdır. Kendi içlerinde
-                  hesaplanırlar ya da otomatik doldurulurlar. Ayrıca İşlem Tipi
-                  seçildiğinde içerisinde “Kasa, Banka, Hizmet – Masraf ve Cari”
-                  bulunur. Bunlarda biri seçildiğinde onun kolonu da açılır. Ve
-                  ayrıca bunlardan “Cari” seçilirse “Tip” adında bir kolon daha
-                  gösterilir. Bunun içeride ise “Fatura, Çek, Senet, Sabit Gider
-                  ve Diğer” adında seçimler bulunur. Fatura seçildiğinde “Satış
-                  Fatura”, Çek seçildiğinde “Müşteri Çek”, Senet seçildiğinde
-                  “Müşteri Senet” kolonları gelirken “Sabit Gider” ya da “Diğer”
-                  seçeneklerinde yeni bir kolon gelmez.
-                </p>
-                <p>
-                  Kolonların bazıları seçildiğinde içerisinde bulunan (daha
-                  önceden tanımlanmış) verilerin aynıları var ise o kolonlar
-                  otomatik doldurulur. Örneğin; Bankamızdan, seçilen Cari Hesaba
-                  tanımlı bir Müşteri Çek’in havalesini yapmak istiyoruz. Bunun
-                  için Bankamızı seçeriz. İşlem Tipi olarak Cari seçildikten
-                  sonra “Cari Hesap ve Tip” kolonları açılır. Buradan istenilen
-                  Cari seçilir ve Tip seçiminden Çek seçilir. Kayıtlı olan çek
-                  seçilir. Çekin içinde tanımlı olan Tutar, Döviz Kuru, Dövizli
-                  Tutar ve Para Birimi otomatik olarak doldurulur ve aktifliği
-                  kalkar, artık düzenlenemez hale gelir. Diğer kalan bilgilerde
-                  doldurulabilir ve “Ekle” tıklandığında seçilen çek bankamızdan
-                  havale edilmiş olur.
-                </p>
-                <p>
-                  *Bu kolonlardan biri seçildiğinde ise diğerleri gizlenir ve
-                  aktifliği kalkar.
-                </p>
-                <p>Giden Havale İşlemi</p>
-                <p>
-                  Bankadan Giden Havale İşlemi yapılacaksa bu panel
-                  kullanılabilir. Yapılan işlemler tabloda listelenir.
-                </p>
-                <p>
-                  *Boş tablolarda ortada ilgili tabloda veri olmadığını belirten
-                  bir yazı ve simge bulunur. Ekleme işlemi yapılabilen
-                  tablolarda buraya da tıklanarak ekleme yapılabilir.
-                </p>
-                <p>
-                  Ekleme menüsünde; Açıklama, Banka, İşlem Tipi, Belge No, İşlem
-                  Tarihi, Para Birimi, Tutar, KDV, KDV Dahil, KDV Tutarı, Vergi
-                  Açıklaması, Vergili Ödenecek Tutar, Kaynak Belge, Döviz Kuru,
-                  Dövizli Tutar kolonları bulunmaktadır. Burasıda neredeyse
-                  tamamen Banka Gelen Havale İşlemi menüsü ile aynıdır. Sadece
-                  “Tip” bölümünde Fatura seçildiğinde “Alış Fatura”, Çek
-                  seçildiğinde “Firma Çek”, Senet seçildiğinde “Firma Senet”
-                  kolonları gelirken yine “Sabit Gider” ya da “Diğer”
-                  seçeneklerinde yeni bir kolon gelmez.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <h5>Bakiye Listesi</h5>
+                  <p>
+                    Banka "Bakiye Listesi" panelinde hiçbir işlem
+                    yapılmamaktadır. Burası görüntüleme ve listelemek için
+                    tasarlanmıştır. Diğer panellerden yapıtığınız, Bankanızı
+                    etkileyen tüm işlemler buraya yansıtılır. Bankanın güncel
+                    bakiye durumu görüntülenir.
+                  </p>
+                  <h5>Banka Kartı</h5>
+                  <p>
+                    Bankanızdan işlem yapmak için önce kart oluşturmalısınız.
+                    Banka Kartı bölümünde Şube, para birimi, kişisel tanımı gibi
+                    verileri doldurup oluşturabilirsiniz.
+                  </p>
+                  <h5>Gelen Havale</h5>
+                  <p>
+                    Bankaya gelen havale burada listelenir. Gelen Havale İşlemi
+                    oluşturmak için “Ekle” butonuna tıklanmalıdır.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Açıklama, Banka, İşlem Tipi, Belge No,
+                    İşlem Tarihi, Tutar, Para Birimi, KDV, KDV Dahil, KDV
+                    Tutarı, Kaynak Belge, Vergi Açıklaması, Vergili Ödenecek
+                    Tutar, Döviz Kuru, Dövizli Tutar kolonları bulunmaktadır.
+                  </p>
+                  <p>
+                    Bazı kolonlar veri girişine kapalıdır. Kendi içlerinde
+                    hesaplanırlar ya da otomatik doldurulurlar. Ayrıca İşlem
+                    Tipi seçildiğinde içerisinde “Kasa, Banka ve Cari” bulunur.
+                    Bunlarda biri seçildiğinde onun kolonu da açılır. Ve ayrıca
+                    bunlardan “Cari” seçilirse “Tip” adında bir kolon daha
+                    gösterilir. Bunun içeride ise “Fatura, Çek, Senet, Sabit
+                    Gider ve Diğer” adında seçimler bulunur. Fatura seçildiğinde
+                    “Satış Fatura”, Çek seçildiğinde “Müşteri Çek”, Senet
+                    seçildiğinde “Müşteri Senet” kolonları gelirken “Diğer”
+                    seçeneğinde yeni bir kolon gelmez.
+                  </p>
+                  <p>
+                    Kolonların bazıları seçildiğinde ortalı bir modal açılır ve
+                    işleme oradan devam edilir. Örneğin; Bankamızdan, seçilen
+                    Cari Hesaba tanımlı bir Müşteri Çek’in havalesini yapmak
+                    istiyoruz. Bunun için Bankamızı seçeriz. İşlem Tipi olarak
+                    Cari seçildikten sonra “Cari Hesap ve Tip” kolonları açılır.
+                    Buradan istenilen Cari seçilir ve Tip seçiminden Çek
+                    seçilir. Kayıtlı olan çek seçilir. Çekin içinde tanımlı olan
+                    Tutar, Döviz Kuru, Dövizli Tutar ve Para Birimi otomatik
+                    olarak doldurulur ve aktifliği kalkar, artık düzenlenemez
+                    hale gelir. Diğer kalan bilgilerde doldurulabilir ve “Ekle”
+                    tıklandığında seçilen çek bankamızdan havale edilmiş olur.
+                  </p>
+                  <p>
+                    *Bu kolonlardan biri seçildiğinde ise diğerleri gizlenir ve
+                    aktifliği kalkar.
+                  </p>
+                  <h5>Giden Havale</h5>
+                  <p>
+                    Bankadan Giden Havale İşlemi yapılacaksa bu panel
+                    kullanılabilir. Yapılan işlemler tabloda listelenir.
+                  </p>
+                  <p>
+                    *Boş tablolarda ortada ilgili tabloda veri olmadığını
+                    belirten bir yazı ve simge bulunur. Ekleme işlemi
+                    yapılabilen tablolarda buraya da tıklanarak ekleme
+                    yapılabilir.
+                  </p>
+                  <p>
+                    Ekleme menüsünde; Açıklama, Banka, İşlem Tipi, Belge No,
+                    İşlem Tarihi, Para Birimi, Tutar, KDV, KDV Dahil, KDV
+                    Tutarı, Vergi Açıklaması, Vergili Ödenecek Tutar, Kaynak
+                    Belge, Döviz Kuru, Dövizli Tutar kolonları bulunmaktadır.
+                    Burasıda neredeyse tamamen Banka Gelen Havale İşlemi menüsü
+                    ile aynıdır. Sadece “Tip” bölümünde Fatura seçildiğinde
+                    “Alış Fatura”, Çek seçildiğinde “Firma Çek”, Senet
+                    seçildiğinde “Firma Senet” kolonları gelirken yine “Diğer”
+                    seçeneğinde yeni bir kolon gelmez.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/finans-yonetimi/kasa"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

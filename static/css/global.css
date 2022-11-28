@@ -1,9 +1,9 @@
 .footers {
     position: fixed;
     bottom: 0;
-    background-color: #ddd;
     color: white;
     text-align: center;
+    margin-bottom: 10px;
  }
 
  body {

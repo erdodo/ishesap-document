@@ -38,27 +38,27 @@
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
-                <!--begin::Summary-->
-                <p>
-                  Kobiye ait Kasa üzerinden yapılan tüm ödemeler ve tahsilat
-                  işlemleri burada listelenir. Alınan Ürün ve Satılan Ürünler
-                  gösterilir. Üst tarafta Kasa Bakiyesi, Ödemeler Toplamı ve
-                  Tahsilatlar Toplamı göstergeleri bulunur. Kasa Bakiyesi,
-                  Tahsilatlar Toplamından Ödemeler Toplamını çıkartarak
-                  hesaplanır. Ödemeler Toplamı, Alınan Ürünler için yapılan
-                  ödemelerin toplamını gösterir. Tahsilatlar Toplamı, Satılan
-                  Ürünler için yapılan tahsilat toplamlarını gösterir.
-                </p>
-                <!--end::Summary-->
+                <article>
+                  <p>
+                    Kobiye ait Kasa üzerinden yapılan tüm ödemeler ve tahsilat
+                    işlemleri burada listelenir. Alınan Ürün ve Satılan Ürünler
+                    gösterilir. Üst tarafta Kasa Bakiyesi, Ödemeler Toplamı ve
+                    Tahsilatlar Toplamı göstergeleri bulunur. Kasa Bakiyesi,
+                    Tahsilatlar Toplamından Ödemeler Toplamını çıkartarak
+                    hesaplanır. Ödemeler Toplamı, Alınan Ürünler için yapılan
+                    ödemelerin toplamını gösterir. Tahsilatlar Toplamı, Satılan
+                    Ürünler için yapılan tahsilat toplamlarını gösterir.
+                  </p>
+                </article>
               </div>
               <!--end::Question-->
               <!--begin::Separator-->
-              <div class="separator separator-dashed my-8"></div>
+              <el-divider />
               <!--end::Separator-->
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="container d-flex justify-content-between footers">
               <router-link
                 to="/docs/kobi/siparis"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
