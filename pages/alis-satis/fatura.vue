@@ -286,7 +286,7 @@
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="d-flex justify-content-between mb-0">
+            <div class="d-flex justify-content-between mb-0 footers container">
               <router-link
                 to="/docs/finans-yonetimi/cek-senet/senet/musteri-senet"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"

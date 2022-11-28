@@ -16,7 +16,21 @@
               <el-breadcrumb-item>Fatura</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!-------  KODLAR BURAYA  --------->
+          <!-------  KODLAR BURAYA İLK --------->
+          <!-- <el-image style="width: 100px; height: 100px" :src="url" :fit="fit" /> -->
+          <!-------  KODLAR BURAYA SON --------->
+          <div class="d-flex justify-content-between mb-0 footers container">
+            <router-link
+              to="/"
+              class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
+              >Önceki</router-link
+            >
+            <router-link
+              to="/"
+              class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
+              >Sonraki</router-link
+            >
+          </div>
         </div>
       </div>
     </div>
