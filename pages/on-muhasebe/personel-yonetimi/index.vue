@@ -44,6 +44,24 @@
                     personellerinizi kayıt edip listeleyebildiğiniz bölümdür.
                     Sağ üstten Ekle butonuna tıklanarak ekleme yapılabilir.
                   </p>
+                  <p>
+                    Ekleme menüsünde, Resim, TCKN, Adı, Soyadı, Sicil Numarası,
+                    Telefon, Doğum Tarihi, Cinsiyet, Görev, E-Posta, Adres, İşe
+                    Giriş Tarihi, Net Maaş, Brüt Maaş, Not, Etiket ve Kategori
+                    kolonları bulunur.
+                  </p>
+                  <p>
+                    Oluşturulan personelin tablodan üstüne tıklandığında
+                    Personel Detay sayfasına gidilir. Burada o personele ait
+                    bilgiler yer alırken Mali Personel Hareketleri, Yıllık İzin
+                    Talebi tabloları gibi bölümler bulunur.
+                  </p>
+                  <p>
+                    Mali Personel Hareketleri, personelinize yapılacak ödemeleri
+                    kontrol etmenizi sağlar. Ekleme menüsünde o personele ait
+                    ödeme işlemi yapılabilir. Ekleme menüsünde,Personel Ödeme
+                    Türü, Düzenleme Tarihi, Tutar ve Açıklama kolonları bulunur.
+                  </p>
                 </article>
               </div>
               <!--end::Question-->

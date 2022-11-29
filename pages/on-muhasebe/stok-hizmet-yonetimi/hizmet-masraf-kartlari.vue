@@ -48,10 +48,10 @@
                 <!--end::Head-->
                 <article>
                   <p>
-                    Stok Kartları alınan veya satılan malların takibini sağlamak
-                    için yapılmıştır. Ancak hizmet sektöründe veya hizmet
-                    alım-satım durumlarında yapılan mal değil, hizmettir. Takip
-                    edilen de hizmettir. Bu nedenle alınan ya da satılan
+                    Hizmet-Masraf Kartları alınan veya satılan malların takibini
+                    sağlamak için yapılmıştır. Ancak hizmet sektöründe veya
+                    hizmet alım-satım durumlarında yapılan mal değil, hizmettir.
+                    Takip edilen de hizmettir. Bu nedenle alınan ya da satılan
                     hizmetlere ait işlemlerin takip edilebilmesi için
                     Hizmet/Masraf Kartları sayfasına ihtiyaç duyulur. Bu
                     bağlamda, stok takibinin yapılması mümkün olmayan işlemler

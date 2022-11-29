@@ -16,14 +16,14 @@
               <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
                 Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item
-                :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }"
-              >
-                Stok-Hizmet Yönetimi
+              <el-breadcrumb-item :to="{ path: '/on-muhasebe/buro-yonetimi' }">
+                Büro Yönetimi
               </el-breadcrumb-item>
-              <el-breadcrumb-item>Üretim İşlemleri</el-breadcrumb-item>
+              <el-breadcrumb-item>Kira Yönetimi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
+          <!--begin::Content-->
+          <!--begin::Post-->
           <div class="post" id="kt_post">
             <!--begin::Questions-->
             <div class="mb-10">
@@ -34,28 +34,15 @@
                   <!--begin::Title-->
                   <h1
                     class="fs-2 fw-bolder text-gray-900 text-hover-primary me-1"
-                    ref="depo"
+                    ref="sabitGider"
                   >
-                    Üretim nasıl çalışır?
+                    Kira Yönetimi nasıl çalışır?
                   </h1>
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
                 <article>
-                  <p>
-                    Üretim modülü stoklarınızda ki ürünlerin birleştirilerek
-                    üretilmesini sağlar.
-                  </p>
-
-                  <p>
-                    Ekleye tıkladığımızda bizi diğer modüllerden farklı bir
-                    sayfa karşılar. Burada üst tarafta bir "+" butonu mevcuttur.
-                    Butona tıklandığında mevcut stoklarınızdaki ürünler
-                    listenir. İstenilen ürünler seçilir. Alt tarafta ise üretimi
-                    hangi stok kartına yapacağınız, hangi depoya stoklayacağınız
-                    ve ne kadar ürettiğiniz bilgileri seçilir. Dönüştür butonu
-                    ile kayıt oluşturulur.
-                  </p>
+                  <p>---</p>
                 </article>
               </div>
               <!--end::Question-->
@@ -67,27 +54,24 @@
             <!--begin::Pagination-->
             <div class="container d-flex justify-content-between footers">
               <router-link
-                to="/docs/stok-hizmet-yonetimi/hizmet-masraf-kartlari"
+                to="/docs/buro-yonetimi/kiralar"
                 class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-                >Önceki</router-link
+              >
+                Önceki</router-link
               >
               <router-link
-                to="/docs/sabit-kiymet-yonetimi/kart"
-                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-                >Sonraki</router-link
-              >
+                to="/docs"
+                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2 disabled"
+                >Sonraki
+              </router-link>
             </div>
             <!--end::Questions-->
           </div>
+          <!--end::Post-->
+          <!--end::Content-->
         </div>
       </div>
     </div>
     <Footer></Footer>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>
