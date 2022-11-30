@@ -19,7 +19,7 @@
               <el-breadcrumb-item>e-Arşiv</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
+          Geliştirme aşamasındadır.
         </div>
       </div>
     </div>

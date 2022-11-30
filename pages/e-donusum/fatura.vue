@@ -19,6 +19,7 @@
               <el-breadcrumb-item>e-Fatura</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
+          Geliştirme aşamasındadır.
         </div>
       </div>
     </div>

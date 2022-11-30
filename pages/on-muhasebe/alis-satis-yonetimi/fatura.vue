@@ -73,7 +73,7 @@
                     basılabilir.
                   </p>
                   <p>
-                    Alış Fatura tablosuda veri girildikten sonra tabloda ilgili
+                    Alış Fatura tablosunda veri girildikten sonra tabloda ilgili
                     verilerin sağ tarafında "Ödeme" butonu oluşur. Bu butona
                     tıkladığımızda bizi bir panel karşılar. Burada üst kısımda
                     ilgili faturanın bilgileri gösterilir. Hemen altında "Banka
@@ -92,9 +92,9 @@
                     Fatura ekleme menüsü, standart ekleme menülerinden farklı
                     çalışmaktadır. Üst tarafta Faturaya ait genel bilgiler yer
                     alırken alt tarafta ise o faturaya ait işlemler (hizmetler)
-                    gösterilir. Sol alttan "Yeni İşlem" butonuna tıklanarak
+                    gösterilir. Sol alttan "Satır Ekle" butonuna tıklanarak
                     istenildiği kadar yeni işlem eklenebilir. Her bir işlem
-                    kendi içinde oluşturulur. Sağ altta tarafta tüm işlemlerin
+                    kendi içinde oluşturulur. Sağ alt tarafta tüm işlemlerin
                     genel tutarları gösterilir. Sağ alttan "Kaydet" butonuna
                     tıklanarak girilen tüm veriler ve işlemler kaydedilir.
                   </p>

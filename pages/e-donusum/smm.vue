@@ -19,6 +19,7 @@
               <el-breadcrumb-item>Serbest Meslek Makbuzu</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
+          Geliştirme aşamasındadır.
         </div>
       </div>
     </div>
