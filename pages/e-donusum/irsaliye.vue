@@ -19,7 +19,7 @@
               <el-breadcrumb-item>e-İrsaliye</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          İrsaliye
+          Geliştirme aşamasındadır.
         </div>
       </div>
     </div>

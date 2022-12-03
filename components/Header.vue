@@ -73,9 +73,11 @@
       >
       <el-menu-item class="w-100 active-iptal"></el-menu-item>
 
-      <el-menu-item index="/uye-ol">Üye Ol</el-menu-item>
+      <div class="right-buttons">
+        <a href="https://www.ishesap.vercel.app/login" target="_blank" rel="noopener noreferrer">Üye Ol</a>
+        <a href="https://www.ishesap.vercel.app/register" target="_blank" rel="noopener noreferrer">Giriş Yap</a>
+      </div>
     </template>
-    <el-menu-item index="/giris-yap">Giriş Yap</el-menu-item>
   </el-menu>
 </template>
 
@@ -103,5 +105,20 @@ export default {
 <style>
 .active-iptal {
   border-bottom: none !important;
+}
+.right-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin-right: 20px;
+}
+.right-buttons a {
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #909399;
+}
+.right-buttons a:hover {
+  color: #000;
 }
 </style>
