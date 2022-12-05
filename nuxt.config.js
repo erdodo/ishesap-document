@@ -8,6 +8,9 @@ export default {
     htmlAttrs: {
       lang: "tr",
     },
+    base: {
+      href: "/docs/",
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -15,7 +18,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/" },
+      { rel: "icon", type: "image/x-icon", href: "/ico.png" },
 
       {
         rel: "stylesheet",
@@ -60,6 +63,9 @@ export default {
     baseURL: "/",
   },
 
+  router: {
+    base: "/docs/",
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
