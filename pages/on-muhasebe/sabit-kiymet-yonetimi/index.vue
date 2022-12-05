@@ -19,7 +19,22 @@
               <el-breadcrumb-item>Sabit Kıymet Yönetimi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/sabit-kiymet-yonetimi/kartlar'">
+                <el-card class="my-2 animate">
+                Sabit Kıymet Kartları
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/sabit-kiymet-yonetimi/hareketler'">
+                <el-card class="my-2 animate">
+                Sabit Kıymet Hareketleri
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

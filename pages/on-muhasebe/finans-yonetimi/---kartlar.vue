@@ -9,10 +9,7 @@
         <!--begin::Head-->
         <div class="d-flex align-items-center mb-4">
           <!--begin::Title-->
-          <h1
-            class="fs-2 fw-bolder text-gray-900 text-hover-primary me-1"
-            ref="finansKartlar"
-          >
+          <h1 class="fs-2 fw-bolder text-gray-900 text-hover-primary me-1" ref="finansKartlar">
             Kartlar nasıl çalışır?
           </h1>
           <!--end::Title-->
@@ -59,18 +56,11 @@
     </div>
     <!--end::Questions-->
     <!--begin::Pagination-->
-    <div class="container d-flex justify-content-between footers">
-      <router-link
-        to="/docs/cari-hesaplar"
-        class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-      >
-        Önceki</router-link
-      >
-      <router-link
-        to="/docs/finans-yonetimi/kasa"
-        class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-        >Sonraki</router-link
-      >
+    <div class="d-none">
+      <router-link to="/docs/cari-hesaplar" class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2">
+        Önceki</router-link>
+      <router-link to="/docs/finans-yonetimi/kasa"
+        class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2">Sonraki</router-link>
     </div>
     <!--end::Questions-->
   </div>

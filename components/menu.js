@@ -303,14 +303,14 @@ const genel = [
     icon: "bi bi-people-fill",
     name: "Kayıt",
     type: "link",
-    path: "/genel/kayit-ekrani/kayit",
+    path: "/genel/kayit-ekrani",
   },
   {
     index: "18",
     icon: "bi bi-people-fill",
     name: "Telefon Doğrulaması",
     type: "link",
-    path: "/genel/dogrulama-ekrani/dogrulama",
+    path: "/genel/dogrulama-ekrani",
   },
   {
     index: "19",

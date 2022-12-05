@@ -13,7 +13,43 @@
               <el-breadcrumb-item> Anasayfa </el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/kobi'">
+                <el-card class="my-2 animate">
+                Kobi
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe'">
+                <el-card class="my-2 animate">
+                Ön Muhasebe
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/muhasebe'">
+                <el-card class="my-2 animate">
+                Resmi Muhasebe
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum'">
+                <el-card class="my-2 animate">
+                E-Dönüşüm
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/genel'">
+                <el-card class="my-2 animate">
+                Genel
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

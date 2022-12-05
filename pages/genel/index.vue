@@ -16,11 +16,36 @@
               <el-breadcrumb-item> Genel </el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
-          <p>
-            Burada sistemde yer alan ve tüm modüllerde bulunan genel bölümler
-            yer alır.
-          </p>
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <nuxt-link :to="'/genel/giris-ekrani'">
+                  <el-card class="my-2 animate">
+                  Giriş Ekranı
+                </el-card>
+                </nuxt-link>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <nuxt-link :to="'/genel/kayit-ekrani'">
+                  <el-card class="my-2 animate">
+                  Kayıt
+                </el-card>
+                </nuxt-link>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <nuxt-link :to="'/genel/dogrulama-ekrani'">
+                  <el-card class="my-2 animate">
+                  Telefon Doğrulaması
+                </el-card>
+                </nuxt-link>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <nuxt-link :to="'/genel/kullanici'">
+                  <el-card class="my-2 animate">
+                  Kullanıcı
+                </el-card>
+                </nuxt-link>
+              </div>
+            </div>
         </div>
       </div>
     </div>

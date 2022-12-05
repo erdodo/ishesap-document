@@ -17,7 +17,43 @@
               <el-breadcrumb-item>E-Dönüşüm</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          E-DONUŞUM
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum/fatura'">
+                <el-card class="my-2 animate">
+                E-Fatura
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum/irsaliye'">
+                <el-card class="my-2 animate">
+                E-İrsaliye
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum/arsiv'">
+                <el-card class="my-2 animate">
+                E-Arşiv
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum/smm'">
+                <el-card class="my-2 animate">
+                Serbest Meslek Makbuzu
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/e-donusum/e-mm'">
+                <el-card class="my-2 animate">
+                Müstahsil Makbuzu
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

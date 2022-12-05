@@ -20,7 +20,22 @@
               <el-breadcrumb-item>Kullanıcı</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/genel/kullanici/profil'">
+                <el-card class="my-2 animate">
+                Profil
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/genel/kullanici/firma'">
+                <el-card class="my-2 animate">
+                Firma
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

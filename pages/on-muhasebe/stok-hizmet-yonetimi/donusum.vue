@@ -3,10 +3,7 @@
     <Header></Header>
     <div class="d-flex">
       <Aside></Aside>
-      <div
-        style="height: calc(100vh - 61px - 64px)"
-        class="overflow-auto w-100 py-4 px-2"
-      >
+      <div style="height: calc(100vh - 61px - 64px)" class="overflow-auto w-100 py-4 px-2">
         <div class="container">
           <el-card class="w-100 mb-3">
             <el-breadcrumb separator-class="el-icon-arrow-right">
@@ -16,12 +13,10 @@
               <el-breadcrumb-item :to="{ path: '/on-muhasebe' }">
                 Ön Muhasebe
               </el-breadcrumb-item>
-              <el-breadcrumb-item
-                :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }"
-              >
+              <el-breadcrumb-item :to="{ path: '/on-muhasebe/stok-hizmet-yonetimi' }">
                 Stok-Hizmet Yönetimi
               </el-breadcrumb-item>
-              <el-breadcrumb-item>Üretim İşlemleri</el-breadcrumb-item>
+              <el-breadcrumb-item>Dönüşüm İşlemleri</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
           <div class="post" id="kt_post">
@@ -32,19 +27,16 @@
                 <!--begin::Head-->
                 <div class="d-flex align-items-center mb-4">
                   <!--begin::Title-->
-                  <h1
-                    class="fs-2 fw-bolder text-gray-900 text-hover-primary me-1"
-                    ref="depo"
-                  >
-                    Üretim nasıl çalışır?
+                  <h1 class="fs-2 fw-bolder text-gray-900 text-hover-primary me-1" ref="depo">
+                    Dönüşüm nasıl çalışır?
                   </h1>
                   <!--end::Title-->
                 </div>
                 <!--end::Head-->
                 <article>
                   <p>
-                    Üretim modülü stoklarınızda ki ürünlerin birleştirilerek
-                    üretilmesini sağlar.
+                    Dönüşüm modülü stoklarınızda ki ürünlerin birleştirilerek
+                    yeni bir ürüne dönüştürülmesini sağlar.
                   </p>
 
                   <p>
@@ -65,17 +57,11 @@
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="container d-flex justify-content-between footers">
-              <router-link
-                to="/docs/stok-hizmet-yonetimi/hizmet-masraf-kartlari"
-                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-                >Önceki</router-link
-              >
-              <router-link
-                to="/docs/sabit-kiymet-yonetimi/kart"
-                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2"
-                >Sonraki</router-link
-              >
+            <div class="d-none">
+              <router-link to="/docs/stok-hizmet-yonetimi/hizmet-masraf-kartlari"
+                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2">Önceki</router-link>
+              <router-link to="/docs/sabit-kiymet-yonetimi/kart"
+                class="btn btn-light btn-active-light-primary fw-bold fs-6 mx-2">Sonraki</router-link>
             </div>
             <!--end::Questions-->
           </div>
@@ -90,4 +76,6 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+
+</style>

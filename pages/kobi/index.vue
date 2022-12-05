@@ -17,7 +17,36 @@
               <el-breadcrumb-item>Kobi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          KOBİ
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/kobi/cari-hesap'">
+                <el-card class="my-2 animate">
+                Cari Hesap
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/kobi/siparis'">
+                <el-card class="my-2 animate">
+                Sipariş
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/kobi/kasa'">
+                <el-card class="my-2 animate">
+                Kasa
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/kobi/banka'">
+                <el-card class="my-2 animate">
+                Banka
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

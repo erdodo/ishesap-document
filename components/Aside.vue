@@ -6,7 +6,7 @@
   >
     <el-menu
       :class="width < 900 ? 'position-absolute ' : ''"
-      :style="width < 900 ? 'width:100vw ' : ''"
+      :style="width < 900 ? 'width:90vw ' : ''"
       :default-active="this.$route.path"
       class="top-0 h-100 overflow-auto"
       router
@@ -71,6 +71,7 @@
           v-if="m.type == 'link'"
           :index="m.path"
           class="cursor-pointer"
+          @click="menuKapat()"
         >
           <el-icon :class="m.icon"></el-icon>
           <template #title>
@@ -94,6 +95,7 @@
             :key="s.index"
             :index="s.path"
             class="cursor-pointer"
+            @click="menuKapat()"
           >
             <el-icon :class="s.icon" class="me-2"></el-icon>
             <template #title>

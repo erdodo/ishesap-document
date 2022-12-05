@@ -20,7 +20,36 @@
               <el-breadcrumb-item>Finans Yönetimi</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          <!------KODLAR BURAYA----->
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/finans-yonetimi/kasa'">
+                <el-card class="my-2 animate">
+                Kasa
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/finans-yonetimi/banka'">
+                <el-card class="my-2 animate">
+                Banka
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/finans-yonetimi/cek'">
+                <el-card class="my-2 animate">
+                Çekler
+              </el-card>
+              </nuxt-link>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <nuxt-link :to="'/on-muhasebe/finans-yonetimi/senet'">
+                <el-card class="my-2 animate">
+                Senetler
+              </el-card>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

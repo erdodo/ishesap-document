@@ -150,7 +150,7 @@
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="container d-flex justify-content-between footers">
+            <div class="container footers">
               <router-link
                 to="/docs/giris/dogrulama"
                 class="btn btn-light fw-bold mx-2"
