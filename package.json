@@ -6,7 +6,10 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "sudo rsync -av -e 'ssh -i kuvars_eu1.pem' ../document/dist/ ubuntu@3.121.175.27:/var/www/html/ishesap/docs/",
+    "publish": "npm run build && npm run generate && npm run deploy",
+    "connect": "sudo ssh -i kuvars_eu1.pem ubuntu@3.121.175.27"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",

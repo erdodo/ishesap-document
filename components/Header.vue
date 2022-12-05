@@ -16,7 +16,7 @@
     >
       <div class="d-flex h-100 align-items-center">
         <img
-          src="/icon/is_black3.png"
+          src="/docs/icon/is_black3.png"
           class="m-0"
           style="max-height: 30px"
           alt=""
@@ -74,8 +74,8 @@
       <el-menu-item class="w-100 active-iptal"></el-menu-item>
 
       <div class="right-buttons">
-        <a href="https://www.ishesap.vercel.app/login" target="_blank" rel="noopener noreferrer">Üye Ol</a>
-        <a href="https://www.ishesap.vercel.app/register" target="_blank" rel="noopener noreferrer">Giriş Yap</a>
+        <a href="https://muhasebe.ishesap.com/login" target="_blank" rel="noopener noreferrer">Üye Ol</a>
+        <a href="https://muhasebe.ishesap.com/register" target="_blank" rel="noopener noreferrer">Giriş Yap</a>
       </div>
     </template>
   </el-menu>
