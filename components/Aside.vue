@@ -6,7 +6,7 @@
   >
     <el-menu
       :class="width < 900 ? 'position-absolute ' : ''"
-      :style="width < 900 ? 'width:90vw ' : ''"
+      :style="width < 900 ? 'width:100vw ' : ''"
       :default-active="this.$route.path"
       class="top-0 h-100 overflow-auto"
       router
