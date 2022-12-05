@@ -71,7 +71,7 @@
           v-if="m.type == 'link'"
           :index="m.path"
           class="cursor-pointer"
-          @click="menuKapat()"
+          @click="width < 900 ? menuKapat() : null"
         >
           <el-icon :class="m.icon"></el-icon>
           <template #title>
@@ -95,7 +95,7 @@
             :key="s.index"
             :index="s.path"
             class="cursor-pointer"
-            @click="menuKapat()"
+            @click="width < 900 ? menuKapat() : null"
           >
             <el-icon :class="s.icon" class="me-2"></el-icon>
             <template #title>
