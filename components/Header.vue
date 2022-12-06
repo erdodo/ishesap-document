@@ -16,12 +16,11 @@
     >
       <div class="d-flex h-100 align-items-center">
         <img
-          src="/docs/icon/is_black3.png"
+          :src="this.$auth.$storage.getUniversal('themes') == 'dark' ? '/docs/icon/isdocs_white.png' : '/docs/icon/isdocs_black.png'"
           class="m-0"
           style="max-height: 30px"
           alt=""
         />
-        <h5 class="m-0">&nbsp;- Doküman</h5>
       </div>
     </el-menu-item>
 
@@ -74,6 +73,8 @@
       <el-menu-item class="w-100 active-iptal"></el-menu-item>
 
       <div class="right-buttons">
+        <i v-if="(themeColor == false)" class="el-icon-sunny fs-4 text-warning cursor-p" @click="(themeColor = !themeColor)"></i>
+        <i v-else class="el-icon-moon fs-4 text-primary cursor-p" @click="(themeColor = !themeColor)"></i>
         <a href="https://muhasebe.ishesap.com/login" target="_blank" rel="noopener noreferrer">Üye Ol</a>
         <a href="https://muhasebe.ishesap.com/register" target="_blank" rel="noopener noreferrer">Giriş Yap</a>
       </div>
@@ -82,23 +83,49 @@
 </template>
 
 <script>
+import $ from "jquery"
 export default {
   data() {
     return {
       width: 0,
+      themeColor: false,
     };
   },
   methods: {
     setMenu() {
       this.$store.commit("setMenuVisible");
     },
+    setThemeColor() {
+      this.themeColor = this.$auth.$storage.getUniversal("themes") == "dark"
+      if (this.$auth.$storage.getUniversal("themes") == "dark") {
+        $("html").removeClass("light");
+        $("html").addClass("dark");
+      } else {
+        $("html").removeClass("dark");
+        $("html").addClass("light");
+      }
+    }
   },
   mounted() {
     this.width = window.innerWidth;
     window.addEventListener("resize", () => {
       this.width = window.innerWidth;
     });
+    this.setThemeColor();
   },
+  watch: {
+    themeColor() {
+      if (this.themeColor == true) {
+        $("html").removeClass("light");
+        $("html").addClass("dark");
+        this.$auth.$storage.setUniversal("themes", "dark")
+      } else {
+        $("html").removeClass("dark");
+        $("html").addClass("light");
+        this.$auth.$storage.setUniversal("themes", "light")
+      }
+    }
+  }
 };
 </script>
 
@@ -110,7 +137,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+  width: 600px;
   margin-right: 20px;
 }
 .right-buttons a {

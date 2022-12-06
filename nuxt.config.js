@@ -7,6 +7,7 @@ export default {
     title: "İş Hesap | Doküman",
     htmlAttrs: {
       lang: "tr",
+      class: "light",
     },
     base: {
       href: "/docs/",
@@ -55,6 +56,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
+    '@nuxtjs/auth-next',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

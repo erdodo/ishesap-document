@@ -15,8 +15,8 @@ a {
    text-decoration: none !important;
 }
 
-body {
-   background-color: rgb(250, 250, 250) !important;
+.cursor-p {
+   cursor: pointer;
 }
 
 .animate {
@@ -27,4 +27,42 @@ body {
    transform: scale(1.05);
    border: 1px solid #0d6efd !important;
    cursor: pointer;
+}
+
+.light {
+   --is-card-bg: #fff;
+   --is-text-color: #303133;
+   --is-page-back: #f2f3f5;
+   --is-card-border: #e4e7ed;
+   --is-header-color: #2c4d63;
+   
+}
+.dark {
+   --is-card-bg: #242527;
+   --is-text-color: #e5eaf3;
+   --is-page-back: #0a0a0a;
+   --is-card-border: #414243;
+   --is-header-color: #5b81a7;
+}
+
+.el-card, .el-menu, .el-menu-item, .el-breadcrumb__inner a, .el-breadcrumb__inner.is-link, .el-submenu__title {
+   background-color: var(--is-card-bg) !important;
+   color: var(--is-text-color) !important;
+   border-color: var(--is-card-border) !important;
+   transition: all 0.3s !important;
+}
+
+article p, li, p {
+   color: var(--is-text-color) !important;
+   transition: all 0.3s !important;
+}
+
+h1, h5 {
+   color: var(--is-header-color) !important;
+   transition: all 0.3s !important;
+}
+
+body {
+   background-color: var(--is-page-back) !important;
+   transition: all 0.3s !important;
 }

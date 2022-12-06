@@ -3,10 +3,7 @@
     <Header></Header>
     <div class="d-flex">
       <Aside></Aside>
-      <div
-        style="height: calc(100vh - 61px - 64px)"
-        class="overflow-auto w-100 py-4 px-2"
-      >
+      <div style="height: calc(100vh - 61px - 64px)" class="overflow-auto w-100 py-4 px-2">
         <div class="container">
           <el-card class="w-100 mb-3">
             <el-breadcrumb separator-class="el-icon-arrow-right">
@@ -19,7 +16,7 @@
               <el-breadcrumb-item>e-İrsaliye</el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          Geliştirme aşamasındadır.
+          <p>Geliştirme aşamasındadır.</p>
         </div>
       </div>
     </div>
@@ -31,4 +28,6 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+
+</style>
