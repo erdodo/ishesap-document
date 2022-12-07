@@ -19,7 +19,7 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/ico.png" },
+      { rel: "icon", type: "image/x-icon", href: "/icon/ico.png" },
 
       {
         rel: "stylesheet",
