@@ -129,7 +129,7 @@ const on_muhasebe = [
         icon: "bi bi-card-list",
         name: "Dönüşüm",
         type: "link",
-        path: "/on-muhasebe/stok-hizmet-yonetimi/uretim",
+        path: "/on-muhasebe/stok-hizmet-yonetimi/donusum",
       },
       {
         index: "6-4",

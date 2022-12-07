@@ -150,7 +150,7 @@
             </div>
             <!--end::Questions-->
             <!--begin::Pagination-->
-            <div class="container footers">
+            <div class="d-none">
               <router-link
                 to="/docs/giris/dogrulama"
                 class="btn btn-light fw-bold mx-2"

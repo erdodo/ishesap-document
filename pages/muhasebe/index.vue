@@ -16,7 +16,7 @@
               <el-breadcrumb-item> Resmi Muhasebe </el-breadcrumb-item>
             </el-breadcrumb>
           </el-card>
-          GELİŞTİRME AŞAMASINDA
+          <p>Geliştirme aşamasındadır.</p>
         </div>
       </div>
     </div>
