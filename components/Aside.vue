@@ -1,6 +1,7 @@
 <template>
   <div
     v-show="getMenuVisible"
+    v-if="this.$route.path != '/'"
     class="position-relative"
     style="width: auto; min-width: 240px; height: calc(100vh - 61px - 64px)"
   >
