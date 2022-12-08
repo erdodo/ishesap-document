@@ -14,13 +14,21 @@
       class="active-iptal"
       :class="width < 900 ? 'w-100 text-center' : ''"
     >
-      <div class="d-flex h-100 align-items-center">
+      <div class="d-flex h-100 align-items-center justify-content-between">
         <img
           :src="this.$auth.$storage.getUniversal('themes') == 'dark' ? '/docs/icon/isdocs_white.png' : '/docs/icon/isdocs_black.png'"
           class="m-0"
           style="max-height: 30px"
           alt=""
         />
+        <div class="">
+        <i v-if="(themeColor == false)" class="el-icon-sunny fs-4 text-warning cursor-p" @click="(themeColor = !themeColor)"></i>
+        <i v-else class="el-icon-moon fs-4 text-primary cursor-p" @click="(themeColor = !themeColor)"></i>
+        <el-divider direction="vertical" />
+        <a href="https://muhasebe.ishesap.com/login" target="_blank" rel="noopener noreferrer">Üye Ol</a>
+        <el-divider direction="vertical" />
+        <a href="https://muhasebe.ishesap.com/register" target="_blank" rel="noopener noreferrer">Giriş Yap</a>
+      </div>
       </div>
     </el-menu-item>
 
@@ -144,6 +152,7 @@ export default {
   word-wrap: break-word;
   text-decoration: none;
   color: #909399;
+  white-space: nowrap;
 }
 .right-buttons a:hover {
   color: #000;
