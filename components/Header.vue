@@ -21,7 +21,7 @@
           style="max-height: 30px"
           alt=""
         />
-        <div class="">
+        <div :class="(width < 900 ? '' : 'd-none')">
         <i v-if="(themeColor == false)" class="el-icon-sunny fs-4 text-warning cursor-p" @click="(themeColor = !themeColor)"></i>
         <i v-else class="el-icon-moon fs-4 text-primary cursor-p" @click="(themeColor = !themeColor)"></i>
         <el-divider direction="vertical" />
